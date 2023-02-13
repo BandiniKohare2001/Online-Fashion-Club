@@ -46,10 +46,8 @@
     height: auto;
     text-decoration: none;
     color: white;
-    margin-left: 70%;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    margin-top: 35px;
+    margin-bottom: 35px;
     
 }
 .sign-in{
@@ -57,11 +55,7 @@
     text-decoration: none;
     color: white;
     margin-left: 90%;
-    margin-top: auto;
-    margin-bottom: auto;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    margin-bottom: 35px;
 }
 .add-to-cart{
     height: 40px;
