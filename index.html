@@ -1,183 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
-    <style>
-    .rtc{
-        background-color: rgb(212, 227, 239);
-    }
+    <title>RTC FASHION CLUB</title> 
+    <link rel="stylesheet" href="./css/style.css" media="all"/>
     
-    .navbar{
-        background-color: rgb(93, 104, 232);
-        height: 50px;
-        align-items: center;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        display:flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        color: #fff;
-     }
-    .logo{
-        height: 60px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    
-    }
-    .home{
-        height: 30px;
-        text-decoration: none;
-        margin: 5px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding: 40px;
-        font-size: 4px;
-        color: var(--color-white-bg);
-
-    }
-    .sign-up-btn{
-        height: auto;
-        text-decoration: none;
-        color: white;
-        margin-left: 90%;
-        
-    }
-    .heading-categori{
-        text-align: start;
-    }
-    .categories-container{
-        display: flex;
-        justify-content: space-around;
-        background-color: rgb(249, 235, 217);
-    }
-    .categories{
-        width: 130px;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 10px;
-        text-align: center;
-    }
-
-    .categories-card{
-        background-color: rgb(213, 151, 222);
-        width: 120px;
-        height: 120px;
-        border-radius: 60px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      
-    }
-    .categories-card-title{
-        text-decoration: none;
-        color: black;
-        text-align: center;
-    }
-    .categories-container-2{
-        background-color: rgb(247, 237, 224);
-        
-        display: flex;
-        justify-content: space-around;
-    }
-  
-    .search-bar{
-     width: 350px;
-    height: 33px;
-    border-color: black;
-    border-style: solid ;
-
-   }
-    .search-button{
-        height: 33px;
-        width: 80px;
-        margin-left: px;
-        margin-right: 50px;
-        border-color: black;
-        border-style: solid;
-
-    }
-    .shopnow-btn{
-        background-color: rgb(146, 30, 88);
-        height: 50px;
-        width: 230px;
-        color: white;
-        text-align: center;
-        margin-top: 400px;
-        margin-left: 40 px;
-        margin-right: 80px;
-
-        
-    }
-   
-    .footer{
-        height: 250px;
-        margin-top: 50px;
-        background-color: rgb(55, 34, 74);
-        
-        align-items: center;
-      
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .footer-logo{
-        height: 100px;
-        display: flex;
-        flex-direction:  row;
-        justify-content: center;
-    }
-    .marq{
-        margin-top: 10px;
-        background-color: rgb(219, 242, 242);
-    }
-    .image{
-       
-        height: 300px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        margin-top: 10px;
-        margin-left: 10px;
-        
-    }
-    .img1{
-        height: 300px;
-        width: 300px;
-        box-shadow: 0px 0px 10px  #dbe272;
-    }
-    
-    
-
-    </style>
 </head>
 <body class="body">
     <div align="center" class="top-heading">
-    <marquee width="60%" class="rtc"><h1><b>WELL-COME TO RTC FASHION CLUB</b></h1></marquee></div>
+    <marquee width="60%" class="rtc"><h1><b>WEL-COME TO RTC FASHION CLUB</b></h1></marquee></div>
     <div class="navbar">
-        <a href="./pages/sign-up.html"><h3> Sign up &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;</h3></a>
 
+        <a href="./pages/user.html">
+            <img src="./images/user.png" class="profile" />
+         </a>
+
+         <a href="./pages in navbar/home.html">
+            <img src="./images/home.png" class="home" />
+         </a>
         <form id="form"> 
             <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
             <button class="search-button">Search</button>
           </form>
-    
-    <a href="./pages/home.html">Home
-        <!--<img src="./images/home.png" class="home" />
-    </a>-->
 
-    <a href="./pages/Notification.html">
-        <img src="./images/notification.png" class="home" />
+          <a href="./pages/Notification.html">
+            <img src="./images/notification.png" class="home" />
 
-    
+            <a href="/pages in navbar/sign-up.html">
+                <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+            </a>
+            
+            <a href="./pages in navbar/addtocart.html">
+                 <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
 
-    <a href="./pages/home.html">
-            <img src="./images/add-to-cart.png" class="home" /></a>
+                 <a href="/pages in navbar/sign-up.html">
+                    <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+                </a>
 
-            <a href="./pages in navbar/return.html"><h3> Return Order</h3></a>
+                 <a href="./pages in navbar/return.html"><h3 class="return-order">Return Order</h3></a>
         </div>
         
         <h1 class="heading-categori"><b>Categories</b></h1>
@@ -187,19 +46,19 @@
         <div class="categories">
             <a href="./categories pages/mens.html">
                 <img src="./images/menswere.jpg" class="categories-card" />
-                <h class="categories-card-title">Mens Were</h>
+                <h class="categories-card-title">Men's wear</h>
             </a></div>
             
             <div class="categories">
                 <a href="./categories pages/ethenic.html">
                 <img src="./images/women ethenic.jpg" class="categories-card"  />
-                <h class="categories-card-title">women Ethenic</h>
+                <h class="categories-card-title">Women Ethenic</h>
             </a></div>
             
             <div class="categories">
             <a href="./categories pages/kids.html">
                 <img src="./images/kids were.jpg" class="categories-card" />
-                <h class="categories-card-title">Kids were</h>
+                <h class="categories-card-title">Kids wear</h>
             </a></div>
 
 
@@ -212,20 +71,22 @@
             <div class="categories">
             <a href="./categories pages/jewellary.html">
                 <img src="./images/jewellary.jpg" class="categories-card" />
-                <h class="categories-card-title">Jewellary</h>
+                <h class="categories-card-title">Jewellery</h>
             </a></div></div></div>
-        <!-- second division-->
+       
+       
+            <!-- second division-->
         <div class="categories-container-2">
             <div class="categories">
                 <a href="./categories pages/acessories.html">
                 <img src="./images/acessories.jpg" class="categories-card"  />
-                <h class="categories-card-title">Acessories</h>
+                <h class="categories-card-title">Accessories</h>
             </a></div>
             
             <div class="categories">
             <a href="./categories pages/footwere.html">
                 <img src="./images/footwere.jpg" class="categories-card" />
-                <h class="categories-card-title">Footwere</h>
+                <h class="categories-card-title">Footwear</h>
             </a></div>
 
             <div class="categories">
@@ -237,7 +98,7 @@
             <div class="categories">
             <a href="./categories pages/winter.html">
                 <img src="./images/winter were.jpg" class="categories-card" />
-                <h class="categories-card-title">Winter Were</h>
+                <h class="categories-card-title">Winter Wear</h>
             </a></div></div></div>
             <div>
           </div>
@@ -253,6 +114,12 @@
             loop="">
             <img src="./images/offer img.png" />
             <img src="./images/order.png" />
+            <img src="./images/shop.png" />
+            <img src="./images/order.png" />
+            <img src="./images/offer img.png" />
+            <img src="./images/shop.png" />
+            <img src="./images/order.png" />
+            <img src="./images/offer img.png" />
             <img src="./images/shop.png" />
         </marquee>
           </div>
