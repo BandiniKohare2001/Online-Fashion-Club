@@ -3,8 +3,78 @@
 <head>
     <title>Page Title</title>
     <style>
+        .navbar{
+    background-color: rgb(21, 21, 111);
+    height: 50px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    
+ }
 
-   
+
+ .logo{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.home{
+    height: 30px;
+    text-decoration: none;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 4px;
+    color: white;
+}
+.profile{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100%;
+}
+.sign-up{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.sign-in{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    margin-bottom: 35px;
+}
+.add-to-cart{
+    height: 40px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 80%; 
+}
+.return-order{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    
+}
 
         .first_div{
           height: 70px;
@@ -40,6 +110,7 @@
        }
         .second_div{
             position: relative;
+           
         }
         
         .trend{
@@ -67,45 +138,47 @@
         }     
         .main_img{
             position: absolute;
-            margin-top: 200px;
+            margin-top: 50px;
             border-radius: 0px 50px 50px 0px;
             margin-left: 20px;
             height:400px;
             width: 600px;
            }
-        .search{
-            position: absolute;
-            height: 30px;
-            width: 500px;
-            border-radius: 10px;
-            margin-left:400px;
-            margin-top: 80px;
-        }
+       
         .heding_div{
-           
-             width: 500px;
-            position: relative;
-            margin-top:600px;
-
-        
+              height: 70px;
+              
+              border-style: double;
+              position: relative;
+              background-color: #aebfc9;
+              border-color: azure;
+              border-radius: 20px;
+             margin-top: 500px;
+         
         }
+       
+
+        .heading{
+            position: absolute;
+         font-size: 45PX;
+        color: #00304b;
+         margin-left: 400px;
+         margin-top: 10px;
+        }
+        
          .buynow{
             position:absolute;
             height: 150px;
             width: 150px;
-           margin-top: 200px;
+           margin-top: 50px;
             margin-left:20px;
          }
 
          .third_div{
-            
-            position:relative;
-          
+             position:relative;
              height:1000px;
-             margin-top:720px;
-         
-           
-        }
+        
+            }
        
           
         
@@ -115,33 +188,32 @@
             width:250px;
             background-color: #e6f2ff;
            border-color: #e6f2ff;
-            margin-left: 20px;
+            margin-left: 40px;
             font-size: 22px;
             border-radius: 10px;
-            box-shadow:0px 0px 5px #00304b;
+         
         }
 
         .categories_div{
-          
             text-align:left;
             width: 250px;
            margin-top: 340px;
             background-color: #e6f2ff;
             border-color: #e6f2ff;
             position: absolute;
-            margin-left: 20px;
+            margin-left: 40px;
             font-size: 22px;
             border-radius: 10px;
-            box-shadow:0px 0px 5px #00304b;
+          
         }
 
         .Prise_div{
             border-radius: 10px;
-            box-shadow:0px 0px 5px #00304b;
+           
            position: absolute;
             text-align:left;
             width: 250px;
-            margin-left: 20px;
+            margin-left: 40px;
             background-color: #e6f2ff;
           border-color: #e6f2ff;
           font-size: 22px;
@@ -150,20 +222,10 @@
 }
            
 
-        .heading{
-            position: absolute;
-            text-align: center;
-            font-size:40px;
-             background-color: #85a1b1;
-             position: absolute;
-             width: 1320px;
-            font-style: unset;
-           
-        }
-        
+       
         .for_three_rows{
-           
-            position: relative;
+          
+         position: relative;
             margin-left: 300PX;
       
     
@@ -175,7 +237,7 @@
             flex-direction:row;
             justify-content:space-evenly;
             position:relative;
-            margin-top: 150px;
+            margin-top: 80px;
        } 
        .Ethenic_Wear_For_Women_2{
             display: flex;
@@ -232,7 +294,7 @@
         margin-top: 80px;
             position: relative;
             height: 100px;
-          
+            box-shadow: #00304b;
            flex-direction: row;
            justify-content:space-evenly;
            display: flex;
@@ -241,55 +303,86 @@
        }
 
        .btn_design{
-        box-shadow: 0px 0px 10px#00304b;
+       
        border-radius: 5px;
-       margin-top: 30px;
+      border-color: aquamarine;
        height: 50px;
-       width: 200px;
+       width: 150px;
+       border-style: dashed;
        text-align: center;
-       background-color:#f2f2f2;
+       background-color: #aebfc9;
        border-color: #e6f2ff;
        color: #e6f2ff;
      }
        .btn{
-        font-size: 30px;
+        font-size: 20px;
         }
 
 
         .footer{
             background-color: #00304b;
             height:350px;
-            margin-top: 100px;
+            margin-top: 50px;
           
         }
     </style>
+
+
 </head>
 <body class="body">
-    <div class="first_div">
-         <a href="home.html" class="home">HOME</a>
-         <a href="home.html" class="login">LOGIN</a>
-         <a href="home.html" class="about">ABOUT</a>
-         <a href="home.html" class="contact">CONTACT</a>
-       
-    </div>
+   
      
+    <div class="navbar">
+
+        <a href="./pages/user.html">
+            <img src="./images/user.png" class="profile" />
+         </a>
+
+         <a href="./pages in navbar/home.html">
+            <img src="./ethenics/user.png" class="home" />
+         </a>
+        <form id="form"> 
+            <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+            <button class="search-button">Search</button>
+          </form>
+
+          <a href="./pages/Notification.html">
+            <img src="./images/notification.png" class="home" />
+
+            <a href="/pages in navbar/sign-up.html">
+                <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+            </a>
+            
+            <a href="./pages in navbar/addtocart.html">
+                 <img src="./ethenics/add-to-cart.png" class="add-to-cart" /></a>
+
+                 <a href="/pages in navbar/sign-up.html">
+                    <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+                </a>
+
+                 <a href="./pages in navbar/return.html"><h3 class="return-order">Return Order</h3></a>
+        </div>
+
+
+
+
 <div class="second_div">
-      <img src="trend.png" class="trend">
-      <img src="fashion.png" class="fashion">
+      <img src="./ethenics/trend.png" class="trend">
+      <img src="./ethenics/fashion.png" class="fashion">
       <h1 class="trend_name">Latest Trend</h1>
       <h1 class="fashion_name">New fashion</h1>
-       <input 🔎 type="text"class="search">
-      
-       <img class="main_img" src="main2.jpg"/>
+     
+       <img class="main_img" src="./ethenics/main2.jpg"/>
    
-      <img src="buynow.png" class="buynow">
+      <img src="./ethenics/buynow.png" class="buynow">
 </div> 
 
 
 
 <div class="heding_div">
-    <h1 class="heading">  Ethenic Wear For Womens </h1>
-   
+    <div class="heading">
+ Ethenic Wear For Womens
+</div>
 </div>
 
     <div class="third_div">
@@ -349,7 +442,7 @@
        <div class="card"><a href="jacket.html"><img class="images" src="./ethenics/jacket/j1.png"></a>
               <button class="buttons">Jacket's</button>
        </div>
-        <div class="card">  <a href="tops.html"><img class="images" src="./ethenics/tops/t.png"></a>
+        <div class="card">  <a href="tops.html"><img class="images" src="../ethenic_files/ethenics/tops/t.png"></a>
              <button class="buttons">Top's</button>
         </div>
          <div class="card"> <a href="shirts.html"><img class="images" src="./ethenics/shirts/sh1.png"></a>
