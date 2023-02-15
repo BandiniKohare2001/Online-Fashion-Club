@@ -3,7 +3,9 @@
 <head>
     <title>Page Title</title>
     <style>
-
+       .top-heading{
+        margin-top: 50px;
+       }
    
 
         .first_div{
@@ -11,33 +13,91 @@
             background-color: #00304b;
           position: relative;
         }
-       .home{
-        position: absolute;
-        color: azure;
-       margin-left: 900px;
-       margin-top: 20px;
-       }
 
-       .login{
-        position: absolute;
-        color: azure;
-       margin-left: 990px;
-       margin-top: 20px;
-       }
+        .rtc{
+    background-color: rgb(212, 227, 239);
+    height: 60px;
+    border-radius: 10px;
+    border-style: double;
+              position: relative;
+              background-color: #aebfc9;
+              border-color: azure;
+              border-radius: 20px;
+}
+    .navbar{
+    background-color:  #00304b;
 
-       .about{
-        position: absolute;
-        color: azure;
-       margin-left: 1100px;
-       margin-top: 20px;
-       }
+    height: 60px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    
+ }
 
-       .contact{
-        position: absolute;
-        color: azure;
-       margin-left: 1200px;
-       margin-top: 20px;
-       }
+
+ .logo{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.home{
+    height: 30px;
+    text-decoration: none;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 4px;
+    color: white;
+}
+.profile{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100%;
+}
+.sign-up{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.sign-in{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    margin-bottom: 35px;
+}
+.add-to-cart{
+    height: 40px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 80%; 
+}
+.return-order{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    
+}
        
         
         .heding_div{
@@ -86,7 +146,7 @@
         }
         
         .for_three_rows{
-           margin-top: 150px;
+           margin-top: 10px;
             position: relative;
           
       
@@ -99,7 +159,7 @@
             flex-direction:row;
             justify-content:space-evenly;
             position:relative;
-            margin-top: 150px;
+            margin-top: 50px;
        } 
        .Ethenic_Wear_For_Women_2{
             display: flex;
@@ -124,7 +184,7 @@
     border-style: solid;
     border-color: aliceblue;
     width: 200px;
-    height: 400px;
+    height: 430px;
 
 
 }
@@ -136,7 +196,7 @@
     position: absolute;
     height: 30px;
     width: 140px;
-  margin-top: 353px;
+   margin-top: 380px;
     margin-left: 20px;
     background-color: #b3ffb3;
    border-color: #f2f2f2;
@@ -167,7 +227,7 @@
        .btn_design{
         box-shadow: 0px 0px 10px#00304b;
        border-radius: 5px;
-     margin-top: 800px;
+       margin-top: 920px;
        height: 50px;
        width: 200px;
        text-align: center;
@@ -183,29 +243,59 @@
         .footer{
             background-color: #00304b;
             height:350px;
-            margin-top: 800px;
+            margin-top: 950px;
           
+        }
+
+        .h4{
+           position: absolute;
+           margin-top: 300px;
+           
+        }
+
+        .paragraph{
+          position: absolute;
+          margin-top:330px ;
         }
     </style>
 </head>
-<body class="body">
-    <div class="first_div">
-         <a href="index.html" class="home">HOME</a>
-         <a href="home.html" class="login">LOGIN</a>
-         <a href="home.html" class="about">ABOUT</a>
-         <a href="home.html" class="contact">CONTACT</a>
-       
-    </div>
-     
+<body>
 
 
+<div class="navbar">
 
-<div class="heding_div">
-    <h1 class="heading"> Womens Jacket </h1>
-   
-</div>
+  <a href="./pages/user.html">
+      <img src="./images/user.png" class="profile" />
+   </a>
+
+   <a href="./pages in navbar/home.html">
+      <img src="./ethenics/user.png" class="home" />
+   </a>
+  <form id="form"> 
+      <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+      <button class="search-button">Search</button>
+    </form>
+
+    <a href="./pages/Notification.html">
+      <img src="./images/notification.png" class="home" />
+
+      <a href="/pages in navbar/sign-up.html">
+          <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+      </a>
+      
+      <a href="./pages in navbar/addtocart.html">
+           <img src="./ethenics/add-to-cart.png" class="add-to-cart" /></a>
+
+           <a href="/pages in navbar/sign-up.html">
+              <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+          </a>
+
+           <a href="./pages in navbar/return.html"><h3 class="return-order">Return Order</h3></a>
+  </div>
 
 
+  <div align="center" class="top-heading">
+    <marquee width="60%" class="rtc"><h1><b>Womens-Jackets</b></h1></marquee></div>
 
 
     <div class="third_div">
@@ -216,12 +306,17 @@
 <div class="Ethenic_Wear_For_Women_1">
    
        <div class="card"><img class="images" src="./ethenics/jacket/jacket1.png">
-              <button class="buttons">Buy Now</button>
+           <h3 class="h4">sangriya</h3>
+           <p class="paragraph">monochrome open front jacket<br>
+            Rs 799 <del>1100</del>
+           </p>
+         <button class="buttons">Buy Now</button>
        </div>
         <div class="card"> <img class="images" src="./ethenics/jacket/jacket2.png">
              <button class="buttons">Buy Now</button>
         </div>
          <div class="card"><img class="images" src="./ethenics/jacket/jacket3.png">
+
              <button class="buttons">Buy Now</button>
         </div>
         <div class="card"><img class="images" src="./ethenics/jacket/jacket4.png"></a>
