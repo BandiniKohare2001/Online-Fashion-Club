@@ -279,7 +279,7 @@
 .help {
     position: absolute;
     color: #e6e6ff;
-    margin-left: 450px;
+    margin-left: 500px;
     top: 25px;
 
 
@@ -288,7 +288,7 @@
 .help-list {
     position: absolute;
     color: #e6e6ff;
-    margin-left: 450px;
+    margin-left: 500px;
     top: 90px;
     font-size: 20px;
 }
@@ -296,14 +296,14 @@
 .policy {
     position: absolute;
     color: #e6e6ff;
-    margin-left: 700px;
+    margin-left: 760px;
     top: 25px;
 }
 
 .policy-list {
     position: absolute;
     color: #e6e6ff;
-    margin-left: 700px;
+    margin-left: 760px;
     top: 90px;
     font-size: 20px;
 
