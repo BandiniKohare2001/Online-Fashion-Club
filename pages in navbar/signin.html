@@ -4,14 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> Login</title>
 <style> 
-Body {
-  font-family: Calibri, Helvetica, sans-serif;
-  background-color: pink;
-}
+
 button { 
        background-color: #3341de; 
        width: 100%;
-        color: orange; 
+        color: white; 
         padding: 15px; 
         margin: 10px 0px; 
         border: none; 
@@ -32,37 +29,54 @@ button {
   .cancelbtn { 
        width: auto;
         padding: 10px 18px;
-        margin: 10px 5px;
+        margin: 10px ;
         
     } 
       
    
  .container { 
-        padding: 25px; 
-        background-color: lightblue;
-        border-radius: 20px;
-        margin-left: 35%;
-        width: 350px; 
-        margin-top: 80px;
-    } 
+    padding: 16px;
+   max-width: 300px;
+   background-color: white;
+   border: #ddd;
+   border-style: solid;
+   border-width: 2px;
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 5px 5px 5px 3px;
+   margin-top: 70px;
+
+ }
+ .profile{
+    height: 90px;
+    width: 90px;
+    margin-left: 100px;
+
+ }
+ .pass{
+    margin-left: 170px;
+    margin-top: 0px;
+ }
     .log{
         border-radius: 10px;
     }
 </style> 
 </head>  
 <body>  
-    
+    <form>
         <div class="container"> 
+            <img src="../images/user2.png" class="profile">
             <center> <h1>  Log in  </h1> </center> 
             <label>Username : </label> 
             <input type="text"  class="log" placeholder="Enter Username" name="username" required>
             <label>Password : </label> 
             <input type="password" class="log" placeholder="Enter Password" name="password" required>
             <button type="submit">Login</button> 
-            <input type="checkbox" checked="checked"> Remember me 
-            <button type="button" class="cancelbtn"> Cancel</button> 
-            Forgot <a href="#"> password? </a> 
-        </div> 
+            <input type="checkbox" checked="checked"> Remember me <br />
+            <button type="button" class="cancelbtn"> Cancel</button>
+            <p class="pass">Forgot <a href="#"> password? </a> </p>
+        </div> </form>
  
 </body>   
 </html>
