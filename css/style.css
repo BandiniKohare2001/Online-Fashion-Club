@@ -1,3 +1,4 @@
+@media screen and (min-width: 500px) and (max-width: 1200px) {
 .rtc {
     background-color: rgb(212, 227, 239);
 
@@ -335,6 +336,5 @@
     color: white;
     
 }
-@media screen and (min-width: 500px) and (max-width: 1200px){
     
  }
