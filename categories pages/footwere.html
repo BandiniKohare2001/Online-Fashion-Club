@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Footwear Page</title>
+    <style>
+        .navbar{
+    background-color: rgb(21, 21, 111);
+    height: 80px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    
+ }
+ .footer {
+    position: relative;
+    background-color: #040436;
+    height: 300px;
+    margin-top: 100px;
+}
+.about {
+    position: absolute;
+    top: 25px;
+    margin-left: 120px;
+    color: #e6e6ff;
+}
+
+.about-list {
+    position: absolute;
+    top: 90px;
+    margin-left: 125px;
+    color: #e6e6ff;
+    font-size: 20px;
+}
+
+.help {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 400px;
+    top: 25px;
+
+
+}
+
+.help-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 400px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.policy {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 700px;
+    top: 25px;
+}
+
+.policy-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 700px;
+    top: 90px;
+    font-size: 20px;
+
+}
+
+.social {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 1000px;
+    top: 25px;
+}
+
+.social-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 1000px;
+    top: 90px;
+    font-size: 20px;
+
+}
+.logo{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.home{
+    height: 30px;
+    text-decoration: none;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 4px;
+    color: white;
+}
+.profile{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100%;
+}
+.sign-up{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.sign-in{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    margin-bottom: 35px;
+}
+.add-to-cart{
+    height: 40px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 80%; 
+}
+.return-order{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    
+}
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #8e97d6;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 48px;
+        color: #333;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      .card {
+        width: 280px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(41, 45, 178, 0.3);
+        overflow: hidden;
+      }
+      .card img {
+        margin-left: 50px;
+        margin-top: 10px;
+        justify-content: center;
+        justify-items: center;
+        box-shadow:  2px 2px 2px 2px#e67fe0;
+        width: 150px;
+        height: 180px;
+      }
+      .card-content {
+        padding: 6px;
+      }
+      .card-title {
+        text-align: center;
+      text-shadow:1px 2px #333;
+        font-size: 24px;
+        margin: 4px;
+        font-weight: 200;
+         margin: 10px;
+          }
+      .card-price {
+        margin: 7px;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: 800px;
+      }
+      .btn-class{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .buy-button {
+        display: block;
+        height: 40px;
+        width: 100px;
+        padding: 10px;
+        background-color: #8abce3;
+        color: #0e0d0d;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .Add-to-cart{
+        height: 40px;
+     
+        width: 100px;
+        padding: 10px;
+        background-color: #d86bc4;
+        color: #333;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <body class="body">
+        <div class="navbar">
+    
+            <a href="./pages/user.html">
+                <img src="../images/user.png" class="profile" />
+             </a>
+    
+             <a href="../index.html">
+                <img src="../images/home.png" class="home" />
+             </a>
+            <form id="form"> 
+                <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+                <button class="search-button">Search</button>
+              </form>
+    
+              <a href="./pages/Notification.html">
+                <img src="../images/notification.png" class="home" />
+    
+                <a href="/pages in navbar/sign-up.html">
+                    <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+                </a>
+                
+                <a href="./pages in navbar/addtocart.html">
+                     <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
+    
+                     <a href="/pages in navbar/sign-up.html">
+                        <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+                    </a>
+    
+                     <a href="./pages in navbar/return.html"><h3 class="return-order">Return Order</h3></a>
+                     
+            </div>
+    <header>
+      <h1>Women Footwear👟</h1>
+    </header>
+    
+    <div class="container">
+    <div class="card">
+            <img src="../images/attractive.webp" alt="Kid's Wear">
+            <div class="card-content">
+              <h2 class="card-title">attractive</h2>
+              <p class="card-price">Price rs 499/-</p>
+             <div class="btn-class"> <button class="buy-button">Buy Now</button>
+              <button class="Add-to-cart">Add to cart</button></div>
+            </div>
+            
+      </div>
+      <div class="card">
+        <img src="../images/fabulous.webp" alt="Kid's Wear 1">
+        <div class="card-content">
+          <h2 class="card-title">fabulous</h2>
+          <p class="card-price">Price rs 599/-</p>
+          <div class="btn-class"> <button class="buy-button">Buy Now</button>
+            <button class="Add-to-cart">Add to cart</button></div>
+        </div>
+  </div>
+  <div class="card">
+    <img src="../images/classy.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">classy </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+    </div>
+</div>
+<div class="card">
+    <img src="../images/morden.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">attractive </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+    </div>
+</div>
+<div class="card">
+    <img src="../images/ravishing.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">ravishing </h2>
+      <p class="card-price">Price rs 999/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/sandal.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">sandal </h2>
+      <p class="card-price">Price rs 599/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/sandal1.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">simplat simple</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/trendy.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Shoes </h2>
+      <p class="card-price">Price rs 999/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/flat1.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">trendy flat</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/simple.webp" alt="Kid's Wear">
+    <div class="card-content">
+      <h2 class="card-title">simple flats</h2>
+      <p class="card-price">Price rs 799/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/fancy.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">styling</h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/attractive.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">flaty</h2>
+      <p class="card-price">Price rs 459/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+
+<div class="card">
+    <img src="../images/causalf.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">causalf </h2>
+      <p class="card-price">Price rs 2399/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+
+
+<div class="card">
+    <img src="../images/fabulous.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">branded </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+
+    </div>
+</div>
+<div class="card">
+    <img src="../images/attractivejuttis.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">attract juttis </h2>
+      <p class="card-price">Price rs 1299/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+    </div>
+</div>
+
+
+<div class="card">
+    <img src="../images/juttis.webp" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">juttis  </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <div class="btn-class"> <button class="buy-button">Buy Now</button>
+        <button class="Add-to-cart">Add to cart</button></div>
+    </div>
+</div>
+
+ <div class="footer">
+  <h2 class="about">ABOUT</h2><br>
+  <p class="about-list">Contact Us<br>About Us
+
+
+  <h2 class="help"> HELP</h2>
+  <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
+
+  <h2 class="policy"> POLICY</h2>
+  <p class="policy-list">return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+
+  
+  <h2 class="social"> SOCIAL</h2>
+  <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+         </p></div></body>
+         </html>
