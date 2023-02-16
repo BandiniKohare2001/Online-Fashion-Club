@@ -183,15 +183,91 @@
        .btn{
         font-size: 20px;
         }
+        .footer{
+            background-color: #00304b;
+            height:350px;
+            margin-top: 50px;
+          
+        }
+        .eight{
+   position: relative;
+  background-color: #00304b;
+   height: 350px;
+}
+  .navbar{
+    background-color: rgb(21, 21, 111);
+    height: 50px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    
+ }
+.logo{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
+}
+.home{
+    height: 30px;
+    text-decoration: none;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 4px;
+    color: white;
+}
+.profile{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100%;
+}
+.sign-up{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.sign-in{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    margin-bottom: 35px;
+}
+.add-to-cart{
+    height: 40px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 80%; 
+}
+.return-order{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    
+}
 
-       
-
-
-    </style>
-
-
+</style>
 </head>
+
 
   <body>
 
@@ -201,7 +277,38 @@
 </div>
 
 
+<body class="body">
 
+    <div class="navbar">
+
+        <a href="../pages/user.html">
+            <img src="../images/user.png" class="profile" />
+         </a>
+
+         <a href="../index.html">
+            <img src="../images/home.png" class="home" />
+         </a>
+        <form id="form"> 
+            <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+            <button class="search-button">Search</button>
+          </form>
+
+          <a href="../pages/Notification.html">
+            <img src="../images/notification.png" class="home" />
+
+            <a href="../pages in navbar/sign-up.html" class="categories-1">
+                <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+            </a>
+            
+            <a href="../pages in navbar/addtocart.html">
+                 <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+
+                 <a href="../pages in navbar/sign-up.html" class="categories-1">
+                    <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+                </a>
+
+                 <a href="../pages in navbar/return.html" class="categories-1"><h3 class="return-order">Return Order</h3></a>
+        </div>
 <div class="second_div">
       <img src="./ethenics/trend.png" class="trend">
       <img src="./ethenics/fashion.png" class="fashion">
@@ -298,3 +405,6 @@
 
 </body>
 </html>
+
+</div></body></html>
+
