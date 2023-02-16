@@ -1,27 +1,91 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>RTC FASHION CLUB</title>
-    </head>
-    <body bgcolor="lightpink">
-       
-       <div>
-        <h1><b>Sign Up</b></h1>
-      
-        <input type="text" id="inputfullname" placeholder="Full Name" required /><br><br>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+   text-align: center;
+}
+* {
+   box-sizing: border-box;
+}
+form {
+   padding: 16px;
+   max-width: 450px;
+   background-color: white;
+   border: #ddd;
+   border-style: solid;
+   border-width: 2px;
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+input[type=text], input[type=password] {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+}
+hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+.registerbtn {
+   background-color: #2a44d6;
+   color: white;
+   padding: 16px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+}
+.registerbtn:hover {
+   opacity: 1;
+}
+a {
+   color: dodgerblue;
+   text-decoration: none;
+}
+.signin {
 
-        <input type="number" id="inputmono" placeholder="Phone Number" required/><br><br>
-
-        <input type="email" id="inputemail" placeholder="Email" required /><br><br>
-
-        <input type="password" id="inputpassword" placeholder="Create Password" required/><br><br>
-        
-        <a href="/pages in navbar/sign-in.html">
-        <button>log in</button></a>
-
-        <a href="/index.html">
-            <button>Sign Up</button>
-        </a>
+   text-align: center;
+}
+@media (max-width: 800px) {
+   form {
+      width: 100%;
+      margin-left: 0px;
+   }
+}
+</style>
+</head>
+<body>
+<h1>Sign Up</h1>
+<form>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter email or phone...." name="email" required>
+<label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" required>
+<label for="psw-repeat"><b>Repeat Password</b></label>
+<input type="password"  placeholder="Repeat Password" name="psw-repeat" required>
+<label for="psw-repeat"><b>Phone no</b></label>
+<input type="text"  placeholder="Phone no" name="phone" required>
+<hr>
+<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+<button type="submit" class="registerbtn">Sign Up</button>
 </div>
-
-    </body>
+<div class="signin">
+<p>Already have an account? <a href="#">Sign in</a>.</p>
+</div>
+</form>
+</body>
 </html>
