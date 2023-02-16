@@ -258,19 +258,20 @@
     position: relative;
     background-color: #040436;
     height: 300px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .about {
     position: absolute;
     top: 25px;
-    margin-left: 120px;
+    margin-left: 80px;
     color: #e6e6ff;
+    
 }
 
 .about-list {
     position: absolute;
-    top: 90px;
-    margin-left: 125px;
+    top: 80px;
+    margin-left: 76px;
     color: #e6e6ff;
     font-size: 20px;
 }
@@ -322,6 +323,17 @@
     top: 90px;
     font-size: 20px;
 
+}
+.contact{
+    margin-left: 50px;
+}
+.call{
+    text-decoration: none !important;
+}
+.anc{
+    text-decoration: none !important;
+    color: white;
+    
 }
 @media screen and (min-width: 500px) and (max-width: 1200px){
     
