@@ -16,8 +16,6 @@
             align-items: center;
             padding-left: 100px;
             padding-right: 100px;
-            padding-top: 5px;
-            padding-bottom: 5px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -52,22 +50,6 @@
             margin-right: 100%;
         }
         
-        .sign-up {
-            height: auto;
-            text-decoration: none;
-            color: white;
-            margin-top: 35px;
-            margin-bottom: 35px;
-        }
-        
-        .sign-in {
-            height: auto;
-            text-decoration: none;
-            color: white;
-            margin-left: 90%;
-            margin-bottom: 35px;
-        }
-        
         .add-to-cart {
             height: 40px;
             width: 30px;
@@ -75,6 +57,7 @@
             flex-direction: row;
             justify-content: flex-end;
             margin-left: 80%;
+            margin-right: 30px;
         }
         
         .return-order {
@@ -89,7 +72,7 @@
             height: 33px;
             border-color: black;
             border-style: solid;
-            border-radius: 3px;
+            border-radius: 15px;
         }
         
         .search-button {
@@ -99,7 +82,7 @@
             margin-right: 50px;
             border-color: black;
             border-style: solid;
-            border-radius: 3px;
+            border-radius: 15px;
         }
         
         body {
@@ -166,11 +149,11 @@
 <body>
     <div class="navbar">
 
-        <a href="../pages/user.html">
-            <img src="../images/user.png" class="profile" />
+        <a href="../pages in navbar/profile.html">
+            <img src="./images/user.png" class="profile" />
         </a>
 
-        <a href="../pages in navbar/home.html">
+        <a href="../index.html">
             <img src="../images/home.png" class="home" />
         </a>
         <form id="form">
@@ -178,23 +161,16 @@
             <button class="search-button">Search</button>
         </form>
 
-        <a href="../pages/Notification.html">
-            <img src="../images/notification.png" class="home" />
+        <a href="../pages in navbar/Notification.html"><img src="../images/notification.png" class="home" />
 
-            <a href="../pages in navbar/sign-up.html">
-                <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
-            </a>
+        </a>
 
-            <a href="../pages in navbar/addtocart.html">
-                <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+        <a href="./pages in navbar/addtocart.html">
+            <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
 
-            <a href="../pages in navbar/sign-up.html">
-                <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
-            </a>
-
-            <a href="../pages in navbar/return.html">
-                <h3 class="return-order">Return Order</h3>
-            </a>
+        <a href="../pages in navbar/return.html" class="categories-1">
+            <h3 class="return-order">Return Order</h3>
+        </a>
     </div>
     <div class="logo">Fashion of Jwellary</div>
 
