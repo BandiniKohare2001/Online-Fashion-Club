@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        .top-heading {
+            margin-top: 50px;
+        }
+        
+        .first_div {
+            height: 70px;
+            background-color: #00304b;
+            position: relative;
+        }
+        
+        .rtc {
+            background-color: rgb(212, 227, 239);
+            height: 60px;
+            border-radius: 10px;
+            border-style: double;
+            position: relative;
+            background-color: #aebfc9;
+            border-color: azure;
+            border-radius: 20px;
+        }
+        
+        .navbar {
+            background-color: #00304b;
+            height: 60px;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            margin-top: 30px;
+            flex-direction: row;
+            justify-content: space-between;
+            position: sticky;
+        }
+        
+        .logo {
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        
+        .home {
+            height: 30px;
+            text-decoration: none;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 40px;
+            font-size: 4px;
+            color: white;
+        }
+        
+        .profile {
+            height: 60px;
+            width: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 100%;
+        }
+        
+        .sign-up {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+        
+        .sign-in {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+            margin-bottom: 35px;
+        }
+        
+        .add-to-cart {
+            height: 40px;
+            width: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-left: 80%;
+        }
+        
+        .return-order {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+        }
+        
+        .heding_div {
+            width: 500px;
+            position: relative;
+        }
+        
+        .third_div {
+            position: relative;
+            height: 1000px;
+        }
+        
+        .column_div {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            margin-top: 820px;
+        }
+        
+        .filter {
+            position: relative;
+            box-shadow: 0px 0px 3px #00304b;
+            border-style: solid;
+            border-color: aliceblue;
+            width: 200px;
+            height: 300px;
+        }
+        
+        .heading {
+            position: absolute;
+            text-align: center;
+            font-size: 40px;
+            background-color: #85a1b1;
+            position: absolute;
+            width: 1320px;
+            font-style: unset;
+        }
+        
+        .for_three_rows {
+            margin-top: 10px;
+            position: relative;
+        }
+        
+        .Ethenic_Wear_For_Women_1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: relative;
+            margin-top: 50px;
+        }
+        
+        .Ethenic_Wear_For_Women_2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: relative;
+            margin-top: 40px;
+        }
+        
+        .Ethenic_Wear_For_Women_3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            position: relative;
+            margin-top: 40px;
+        }
+        
+        .card {
+            position: relative;
+            border-style: solid;
+            border-color: aliceblue;
+            width: 200px;
+            height: 430px;
+        }
+        
+        .buttons {
+            text-align: center;
+            border-radius: 5px;
+            font-size: 20px;
+            position: absolute;
+            height: 30px;
+            width: 140px;
+            margin-top: 380px;
+            margin-left: 20px;
+            background-color: #b3ffb3;
+            border-color: #f2f2f2;
+        }
+        
+        .images {
+            position: absolute;
+            height: 280px;
+            width: 190px;
+            border-radius: 5px;
+            margin-left: 8px;
+            margin-top: 12px;
+        }
+        
+        .two_buttons {
+            margin-top: 40px;
+            position: relative;
+            height: 100px;
+            flex-direction: row;
+            justify-content: space-evenly;
+            display: flex;
+            color: aliceblue;
+        }
+        
+        .btn_design {
+            box-shadow: 0px 0px 10px#00304b;
+            border-radius: 5px;
+            margin-top: 920px;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            background-color: #f2f2f2;
+            border-color: #e6f2ff;
+            color: #e6f2ff;
+        }
+        
+        .btn {
+            font-size: 30px;
+        }
+        
+        .footer {
+            background-color: #00304b;
+            height: 350px;
+            margin-top: 950px;
+        }
+        
+        .h4 {
+            position: absolute;
+            margin-top: 300px;
+        }
+        
+        .paragraph {
+            position: absolute;
+            margin-top: 330px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="navbar">
+
+        <a href="./pages/user.html">
+            <img src="./images/user.png" class="profile" />
+        </a>
+
+        <a href="./pages in navbar/home.html">
+            <img src="./ethenics/user.png" class="home" />
+        </a>
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+            <button class="search-button">Search</button>
+        </form>
+
+        <a href="./pages/Notification.html">
+            <img src="./images/notification.png" class="home" />
+
+            <a href="/pages in navbar/sign-up.html">
+                <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+            </a>
+
+            <a href="./pages in navbar/addtocart.html">
+                <img src="./ethenics/add-to-cart.png" class="add-to-cart" /></a>
+
+            <a href="/pages in navbar/sign-up.html">
+                <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+            </a>
+
+            <a href="./pages in navbar/return.html">
+                <h3 class="return-order">Return Order</h3>
+            </a>
+    </div>
+
+
+    <div align="center" class="top-heading">
+        <marquee width="60%" class="rtc">
+            <h1><b>Womens-Jackets</b></h1>
+        </marquee>
+    </div>
+
+
+    <div class="third_div">
+
+        <div class="for_three_rows">
+
+
+            <div class="Ethenic_Wear_For_Women_1">
+
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket1.png">
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"> <img class="images" src="./ethenics/jacket/jacket2.png">
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket3.png">
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket4.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="Ethenic_Wear_For_Women_2 ">
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket5.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket6.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"> <img class="images" src="./ethenics/jacket/jacket7.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket8.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="Ethenic_Wear_For_Women_3">
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket9.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket10.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket11.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"> <img class="images" src="./ethenics/jacket/jacket12.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="Ethenic_Wear_For_Women_2 ">
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket13.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket14.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"> <img class="images" src="./ethenics/jacket/jacket15.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+                <div class="card"><img class="images" src="./ethenics/jacket/jacket16.png"></a>
+                    <h3 class="h4">sangriya</h3>
+                    <p class="paragraph">monochrome open front jacket<br> Rs 799 <del>1100</del>
+                    </p>
+                    <button class="buttons">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="two_buttons">
+        <div class="btn_design">
+            <a class="btn" href="ethenic.html">⬅ Previous</a>
+        </div>
+        <div class="btn_design">
+            <a class="btn" href="plaso.html"> Next ➡ </a>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
