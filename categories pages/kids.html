@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kids Wear</title>
+    <style>
+        .navbar{
+    background-color: rgb(21, 21, 111);
+    height: 80px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    
+ }
+.logo{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.home{
+    height: 30px;
+    text-decoration: none;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 4px;
+    color: white;
+}
+.profile{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100%;
+}
+.sign-up{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.sign-in{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    margin-bottom: 35px;
+}
+.add-to-cart{
+    height: 40px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 80%; 
+}
+.return-order{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    
+}
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #8e97d6;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 48px;
+        color: #333;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      .card {
+        width: 250px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(41, 45, 178, 0.3);
+        overflow: hidden;
+      }
+      .card img {
+        margin-left: 50px;
+        margin-top: 10px;
+        justify-content: center;
+        justify-items: center;
+        box-shadow:  2px 2px 2px 2px#e67fe0;
+        width: 150px;
+        height: 180px;
+      }
+      .card-content {
+        padding: 6px;
+      }
+      .card-title {
+        text-align: center;
+      text-shadow:1px 2px #333;
+        font-size: 24px;
+        margin: 4px;
+        font-weight: 200;
+         margin: 10px;
+          }
+      .card-price {
+        margin: 7px;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: 800px;
+      }
+      .buy-button{
+        display: block;
+        margin-top: 5px;
+        width: 100px;
+        padding: 10px;
+        background-color: #d86bc4;
+        color: #333;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      
+      }
+      .Add-to-cart{
+        display: block;
+        margin-top: 5px;
+        width: 100px;
+        padding: 10px;
+        background-color: #7fceee;
+        color: #333;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      
+      }
+    </style>
+  </head>
+  <body>
+    <body class="body">
+        <div class="navbar">
+    
+            <a href="./pages/user.html">
+                <img src="./images/user.png" class="profile" />
+             </a>
+    
+             <a href="../index.html">
+                <img src="./images/home.png" class="home" />
+             </a>
+            <form id="form"> 
+                <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+                <button class="search-button">Search</button>
+              </form>
+    
+              <a href="./pages/Notification.html">
+                <img src="./images/notification.png" class="home" />
+    
+                <a href="/pages in navbar/sign-up.html">
+                    <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+                </a>
+                
+                <a href="./pages in navbar/addtocart.html">
+                     <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
+    
+                     <a href="/pages in navbar/sign-up.html">
+                        <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+                    </a>
+    
+                     <a href="./pages in navbar/return.html"><h3 class="return-order">Return Order</h3></a>
+                     
+            </div>
+    <header>
+      <h1>KIDS WEAR</h1>
+    </header>
+    
+    <div class="container">
+    <div class="card">
+            <img src="./images/clothes1.jpg" alt="Kid's Wear">
+            <div class="card-content">
+              <h2 class="card-title">Kid's Wear</h2>
+              <p class="card-price">Price rs 499/-</p>
+              <button class="buy-button">Buy Now</button>
+              <button class="Add-to-cart">Add to cart</button>
+            </div>
+            
+      </div>
+      <div class="card">
+        <img src="./images/clothes2.jpg" alt="Kid's Wear 1">
+        <div class="card-content">
+          <h2 class="card-title">Kid's Wear </h2>
+          <p class="card-price">Price rs 1499/-</p>
+          <button class="buy-button">Buy Now</button>
+          <button class="Add-to-cart">Add to cart</button>
+        </div>
+  </div>
+  <div class="card">
+    <img src="./images/clothes3.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 899/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes4.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes5.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 999/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes16.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 599/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes6.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes7.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 999/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes17.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes8.jpg" alt="Kid's Wear">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 799/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes9.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes10.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 459/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes11.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 799/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes12.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 899/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes13.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes14.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes15.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 3199/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes17.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 2399/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes17.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes18.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes19.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes20.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes21.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 699/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes22.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 1399/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes23.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 1299/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes24.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes25.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes26.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes27.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 399/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes28.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 999/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes29.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes31.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 899/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes31.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes32.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes33.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 6799/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes34.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes35.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 569/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes36.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 789/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes37.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes38.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes39.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes40.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear 1</h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes41.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 1599/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes42.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 789/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes43.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes44.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 2399/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes45.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 2329/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes46.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes47.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 1299/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes48.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes49.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear</h2>
+      <p class="card-price">Price rs 1499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes10.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 499/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes31.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 999/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+</div>
+<div class="card">
+    <img src="./images/clothes22.jpg" alt="Kid's Wear 1">
+    <div class="card-content">
+      <h2 class="card-title">Kid's Wear </h2>
+      <p class="card-price">Price rs 1999/-</p>
+      <button class="buy-button">Buy Now</button>
+      <button class="buy-button">Add to cart</button>
+    </div>
+</div>
+ </div>
+         
