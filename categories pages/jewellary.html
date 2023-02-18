@@ -9,26 +9,30 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         .navbar {
             background-color: rgb(21, 21, 111);
-            height: 80px;
+            height: 50px;
             align-items: center;
             padding-left: 100px;
             padding-right: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             position: sticky;
+
         }
-        
+
         .logo {
             height: 60px;
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
+
         }
-        
+
         .home {
             height: 30px;
             text-decoration: none;
@@ -40,7 +44,7 @@
             font-size: 4px;
             color: white;
         }
-        
+
         .profile {
             height: 60px;
             width: 60px;
@@ -49,7 +53,24 @@
             justify-content: space-between;
             margin-right: 100%;
         }
-        
+
+        .sign-up {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-top: 35px;
+            margin-bottom: 35px;
+
+        }
+
+        .sign-in {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+            margin-bottom: 35px;
+        }
+
         .add-to-cart {
             height: 40px;
             width: 30px;
@@ -57,41 +78,40 @@
             flex-direction: row;
             justify-content: flex-end;
             margin-left: 80%;
-            margin-right: 30px;
         }
-        
+
         .return-order {
             height: auto;
-            text-decoration: none;
+            text-decoration: none !important;
             color: white;
             margin-left: 90%;
+
         }
-        
+
         .search-bar {
-            width: 280px;
+            width: 250px;
             height: 33px;
             border-color: black;
             border-style: solid;
-            border-radius: 15px;
+            margin-top: 7px;
         }
-        
+
         .search-button {
             height: 33px;
-            width: 80px;
+            width: 70px;
             margin-left: px;
             margin-right: 50px;
             border-color: black;
             border-style: solid;
-            border-radius: 15px;
         }
-        
+
         body {
             background-image: url('../images/images_jwellary/top-view-engagement-rings-with-copy-space_23-2148483464.avif');
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
         }
-        
+
         .logo {
             font-size: 60px;
             text-align: center;
@@ -101,7 +121,7 @@
             color: rgb(126, 32, 213);
             cursor: pointer;
         }
-        
+
         .circle {
             display: flex;
             flex-direction: row;
@@ -109,7 +129,7 @@
             margin: 0px;
             padding-top: 100px;
         }
-        
+
         .item {
             height: 300px;
             width: 250px;
@@ -122,19 +142,19 @@
             padding-right: auto;
             padding-top: 50px;
         }
-        
+
         .item:hover {
             background-color: rgb(193, 223, 241);
         }
-        
+
         img {
             border-radius: 50%;
         }
-        
+
         .circle .item a {
             text-decoration: none;
         }
-        
+
         button {
             height: 50px;
             width: 150px;
@@ -143,42 +163,49 @@
             cursor: pointer;
         }
     </style>
+    <div class="navbar">
+
+        <a href="../pages in navbar/profile.html">
+            <img src="../images/user.png">
+
+            <a href="../pages in navbar/home.html">
+                <img src="../images/home.png" class="home" />
+            </a>
+            <form id="form">
+                <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+                <button class="search-button">Search</button>
+        </a>
+        </form>
+
+        <a href="../pages/Notification.html">
+            <img src="../images/notification.png" class="home" />
+
+
+
+            <a href="../pages in navbar/addtocart.html">
+                <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+
+            <a href="../pages in navbar/return.html" class="categories-1">
+                <h3 class="return-order">Return Order</h3>
+            </a>
+    </div>
 
 </head>
 
 <body>
-    <div class="navbar">
 
-        <a href="../pages in navbar/profile.html">
-            <img src="./images/user.png" class="profile" />
-        </a>
 
-        <a href="../index.html">
-            <img src="../images/home.png" class="home" />
-        </a>
-        <form id="form">
-            <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
-            <button class="search-button">Search</button>
-        </form>
-
-        <a href="../pages in navbar/Notification.html"><img src="../images/notification.png" class="home" />
-
-        </a>
-
-        <a href="./pages in navbar/addtocart.html">
-            <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
-
-        <a href="../pages in navbar/return.html" class="categories-1">
-            <h3 class="return-order">Return Order</h3>
-        </a>
-    </div>
     <div class="logo">Fashion of Jwellary</div>
 
     <div class="circle">
-        <div class="item"><img src="../images/images_jwellary/G1.jpg" height="150px" width="200px"><br><br/> <a href="../Jwellary_pages/gold.html"><button>Buy Here Gold Jwellary</button> </a> </div>
-        <div class="item"><img src="../images/images_jwellary/D15.jpg" height="150px" width="200px"><br><br/> <a href="../Jwellary_pages/daimond.html"><button>Buy Here Daimond Jwellary </button></a></div>
-        <div class="item"><img src="../images/images_jwellary/silver.jpg" height="150px" width="200px"><br><br/> <a href="../Jwellary_pages/silver.html"><button>Buy Here Silver Jwellary </button></a></div>
-        <div class="item"><img src="../images/images_jwellary/perl.jpg" height="150px" width="200px"><br><br/> <a href="../Jwellary_pages/perl.html"><button>Buy Here  perl Jwellary </button></a></div>
+        <div class="item"><img src="../images/images_jwellary/G1.jpg" height="150px" width="200px"><br><br /> <a
+                href="../Jwellary_pages/gold.html"><button>Buy Here Gold Jwellary</button> </a> </div>
+        <div class="item"><img src="../images/images_jwellary/D15.jpg" height="150px" width="200px"><br><br /> <a
+                href="../Jwellary_pages/daimond.html"><button>Buy Here Daimond Jwellary </button></a></div>
+        <div class="item"><img src="../images/images_jwellary/silver.jpg" height="150px" width="200px"><br><br /> <a
+                href="../Jwellary_pages/silver.html"><button>Buy Here Silver Jwellary </button></a></div>
+        <div class="item"><img src="../images/images_jwellary/perl.jpg" height="150px" width="200px"><br><br /> <a
+                href="../Jwellary_pages/perl.html"><button>Buy Here perl Jwellary </button></a></div>
     </div>
 
 </body>
