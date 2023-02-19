@@ -1,3 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kids Wear</title>
+  <style>
+    * 1{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .navbar {
+      background-color: rgb(21, 21, 111);
+      height: 60px;
+      align-items: center;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: sticky;
+      margin-top: 7px;
+    }
+
+    .logo {
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    .home {
+      height: 40px;
+      text-decoration: none;
+      margin: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 40px;
+      font-size: 4px;
+      color: white;
+    }
+
+    .profile {
+      height: 60px;
+      width: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 100%;
+    }
+
+    .add-to-cart {
+      height: 45px;
+      width: 35px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-left: 80%;
+      margin-right: 30px;
+    }
+
+    .return-order {
+      height: auto;
+      text-decoration: none;
+      color: white;
+      margin-left: 90%;
+    }
+
+    .search-bar {
+      width: 280px;
+      height: 40px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 3px;
+    }
+
+    .search-button {
+      height: 40px;
+      width: 80px;
+      margin-left: px;
+      margin-right: 50px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 3px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      margin: 10px;
+      background-color: #67afce;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: #525aa7 2px 2px 2px 2px;
+      border: solid black 2px;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #333;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .card {
+      width: 250px;
+      margin: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(41, 45, 178, 0.3);
+      overflow: hidden;
+    }
+
+    .card img {
+      margin-left: 50px;
+      margin-top: 20px;
+      justify-content: center;
+      justify-items: center;
+      box-shadow: 2px 2px 2px 2px#e67fe0;
+      width: 150px;
+      height: 200px;
+    }
+
+    .card-content {
+      padding: 6px;
+    }
+
+    .card-title {
+      text-align: center;
+      text-shadow: 1px 2px #333;
+      font-size: 24px;
+      margin: 4px;
+      font-weight: 200;
+    }
+
+    .card-price {
+      margin: 7px;
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: 800px;
+    }
+
+    .buy-button {
+      height: 35px;
+      width: 100px;
+      color: white;
+      border-radius: 3px;
+      border-style: solid;
+      background-color: rgb(240, 9, 163);
+      margin-left: 12px;
+
+
+      cursor: pointer;
+    }
+
+    .Add-to-cart {
+      height: 35px;
+      width: 100px;
+      color: rgb(5, 5, 5);
+      border-radius: 3px;
+      border-style: solid;
+      background-color: white;
+      margin-left: 12px;
+      cursor: pointer;
+    }
+
+    .footer-logo {
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .marq {
+      background-color: rgb(219, 242, 242);
+    }
+
+    .image {
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .img1 {
+      height: 300px;
+      width: 300px;
+      box-shadow: 0px 0px 10px #dbe272;
+    }
+
+    .sore-img {
+      height: 100px;
+      width: 100px;
+    }
+
+    .add {
+      height: 300px;
+      margin-bottom: 150px;
+      margin-top: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-right: 100px;
+      background-color: rgb(232, 241, 247);
+      margin-left: 100px;
+      border-radius: 30px;
+      margin-bottom: 40px;
+    }
+
+    .add-img {
+      margin-top: 20px;
+      height: 350px;
+      width: 430px;
+    }
+
+    .add-img2 {
+      height: 300px;
+      width: 300px;
+      border-radius: 30px;
+    }
+
+    .u-list {
+      margin-top: 60px;
+      font-size: 30px;
+      margin-right: 5px;
+    }
+
+    .second_div {
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+
+    .offer-img {
+      margin-top: 40px;
+      height: 400px;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+
+    .footer {
+      position: relative;
+      background-color: #040436;
+      height: 300px;
+      margin-top: 80px;
+    }
+
+    .about {
+      position: absolute;
+      top: 25px;
+      margin-left: 80px;
+      color: #e6e6ff;
+    }
+
+    .about-list {
+      position: absolute;
+      top: 80px;
+      margin-left: 76px;
+      color: #e6e6ff;
+      font-size: 20px;
+    }
+
+    .help {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 25px;
+    }
+
+    .help-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .policy {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 25px;
+    }
+
+    .policy-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .social {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 25px;
+    }
+
+    .social-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .contact {
+      margin-left: 50px;
+    }
+
+    .call {
+      text-decoration: none !important;
+    }
+
+    .anc {
+      text-decoration: none !important;
+      color: white;
+    }
+  </style>
+</head>
+
+
+
 <body>
 </div>
 <div class="navbar">
