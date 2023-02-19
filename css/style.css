@@ -1,6 +1,37 @@
 .rtc {
     background-color: rgb(212, 227, 239);
+    border-radius: 15px;
+}
 
+.top-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.sign-up {
+    height: 40px;
+    width: 90px;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    background-color: rgb(38, 38, 117);
+    border-radius: 10px;
+    margin-left: 40px;
+    border-color: #353573;
+}
+
+.sign-in {
+    height: 40px;
+    width: 90px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 117);
+    margin-top: 15px;
+    margin-right: 50px;
+    border-color: #353573;
 }
 
 .navbar {
@@ -15,7 +46,7 @@
     flex-direction: row;
     justify-content: space-between;
     position: sticky;
-
+    margin-top: 7px;
 }
 
 .logo {
@@ -23,7 +54,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
 
 .home {
@@ -47,23 +77,6 @@
     margin-right: 100%;
 }
 
-.sign-up {
-    height: auto;
-    text-decoration: none;
-    color: white;
-    margin-top: 35px;
-    margin-bottom: 35px;
-
-}
-
-.sign-in {
-    height: auto;
-    text-decoration: none;
-    color: white;
-    margin-left: 90%;
-    margin-bottom: 35px;
-}
-
 .add-to-cart {
     height: 40px;
     width: 30px;
@@ -71,6 +84,7 @@
     flex-direction: row;
     justify-content: flex-end;
     margin-left: 80%;
+    margin-right: 30px;
 }
 
 .return-order {
@@ -106,7 +120,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .categories-1 {
@@ -117,7 +130,6 @@
     color: black;
     text-align: center;
     text-decoration: none !important;
-
 }
 
 .categories-container-2 {
@@ -132,7 +144,6 @@
     border-color: black;
     border-style: solid;
     border-radius: 3px;
-
 }
 
 .search-button {
@@ -154,8 +165,6 @@
     margin-top: 400px;
     margin-left: 40 px;
     margin-right: 80px;
-
-
 }
 
 .footer-logo {
@@ -165,22 +174,17 @@
     justify-content: center;
 }
 
-
-
 .marq {
-
     background-color: rgb(219, 242, 242);
 }
 
 .image {
-
     height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 10px;
     margin-left: 10px;
-
 }
 
 .img1 {
@@ -192,7 +196,6 @@
 .sore-img {
     height: 100px;
     width: 100px;
-
 }
 
 .add {
@@ -228,10 +231,7 @@
     margin-right: 5px;
 }
 
-
-
 .second_div {
-
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -239,7 +239,6 @@
     margin-top: 20px;
     margin-left: 180px;
     margin-right: 180px;
-
 }
 
 .offer-img {
@@ -250,8 +249,6 @@
     flex-direction: row;
     justify-content: center;
     padding-bottom: 30px;
-
-
 }
 
 .footer {
@@ -260,12 +257,12 @@
     height: 300px;
     margin-top: 80px;
 }
+
 .about {
     position: absolute;
     top: 25px;
     margin-left: 80px;
     color: #e6e6ff;
-    
 }
 
 .about-list {
@@ -281,8 +278,6 @@
     color: #e6e6ff;
     margin-left: 500px;
     top: 25px;
-
-
 }
 
 .help-list {
@@ -306,7 +301,6 @@
     margin-left: 760px;
     top: 90px;
     font-size: 20px;
-
 }
 
 .social {
@@ -322,18 +316,17 @@
     margin-left: 1000px;
     top: 90px;
     font-size: 20px;
-
 }
-.contact{
+
+.contact {
     margin-left: 50px;
 }
-.call{
+
+.call {
     text-decoration: none !important;
 }
-.anc{
+
+.anc {
     text-decoration: none !important;
     color: white;
-    
 }
-    
- 
