@@ -1,356 +1,355 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Footwear Page</title>
-    <style>
-        .navbar{
-    background-color: rgb(21, 21, 111);
-    height: 80px;
-    align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: sticky;
-}
-.logo{
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 
-}
-.home{
-    height: 30px;
-    text-decoration: none;
-    margin: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px;
-    font-size: 4px;
-    color: white;
-}
-.profile{
-    height: 60px;
-    width: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 100%;
-}
-.sign-up{
-    height: auto;
-    text-decoration: none;
-    color: white;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    
-}
-.sign-in{
-    height: auto;
-    text-decoration: none;
-    color: white;
-    margin-left: 90%;
-    margin-bottom: 35px;
-}
-.add-to-cart{
-    height: 40px;
-    width: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-left: 80%; 
-}
-.return-order{
-    height: auto;
-    text-decoration: none;
-    color: white;
-    margin-left: 90%;
-    
-}
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        background-color: #8e97d6;
-        padding: 20px;
-        text-align: center;
-      }
-      h1 {
-        font-size: 48px;
-        color: #333;
-        margin: 0;
-      }
-      .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-      }
-      .card {
-        width: 280px;
-        margin: 20px;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(41, 45, 178, 0.3);
-        overflow: hidden;
-      }
-      .card img {
-        margin-left: 50px;
-        margin-top: 10px;
-        justify-content: center;
-        justify-items: center;
-        box-shadow:  2px 2px 2px 2px#e67fe0;
-        width: 150px;
-        height: 180px;
-      }
-      .card-content {
-        padding: 6px;
-      }
-      .card-title {
-        text-align: center;
-      text-shadow:1px 2px #333;
-        font-size: 24px;
-        margin: 4px;
-        font-weight: 200;
-         margin: 10px;
-          }
-      .card-price {
-        margin: 7px;
-        text-align: center;
-        font-size: 24px;
-        margin-bottom: 10px;
-        font-weight: 800px;
-      }
-      .btn-class{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-      }
-      .buy-button {
-        display: block;
-        height: 40px;
-        width: 100px;
-        padding: 10px;
-        background-color: #8abce3;
-        color: #0e0d0d;
-        border: none;
-        font-size: 16px;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      .Add-to-cart{
-        height: 40px;
-     
-        width: 100px;
-        padding: 10px;
-        background-color: #df50c5;
-        color: #333;
-        border: none;
-        font-size: 16px;
-        font-weight: 400;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-    </style>
-  </head>
-  <body>
-    <body class="body">
-        <div class="navbar">
-    
-            <a href="./pages/user.html">
-                <img src="../images/user.png" class="profile" />
-             </a>
-    
-             <a href="../index.html">
-                <img src="../images/home.png" class="home" />
-             </a>
-            <form id="form"> 
-                <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
-                <button class="search-button">Search</button>
-              </form>
-    
-              <a href="./pages/Notification.html">
-                <img src="../images/notification.png" class="home" />
-    
-                <a href="/pages in navbar/sign-up.html">
-                    <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
-                </a>
-                
-                <a href="./pages in navbar/addtocart.html">
-                     <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
-    
-                     <a href="/pages in navbar/sign-up.html">
-                        <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
-                    </a>
-    
-                     <a href="./pages in navbar/return.html"><h3 class="return-order">Return Order</h3></a>
-                     
-            </div>
-    <header>
-      <h1>RTC Footwear club👟</h1>
-    </header>
-    
-    <div class="container">
-    <div class="card">
-            <img src="../images/attractive.webp" alt="Kid's Wear">
-            <div class="card-content">
-              <h2 class="card-title">attractive</h2>
-              <p class="card-price">Price rs 499/-</p>
-             <div class="btn-class"> <button class="buy-button">Buy Now</button>
-              <button class="Add-to-cart">Add to cart</button></div>
-            </div>
-            
-      </div>
-      <div class="card">
-        <img src="../images/fabulous.webp" alt="Kid's Wear 1">
-        <div class="card-content">
-          <h2 class="card-title">fabulous</h2>
-          <p class="card-price">Price rs 599/-</p>
-          <div class="btn-class"> <button class="buy-button">Buy Now</button>
-            <button class="Add-to-cart">Add to cart</button></div>
-        </div>
+<head>
+  <title>Footwear</title>
+  <style>
+    .second_div {
+
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+    }
+
+    .offer-img {
+      height: 400px;
+      width: 90%;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-bottom: 30px;
+
+    }
+
+    .categories-container-bag {
+      margin-left: 30px;
+      margin-right: 30px;
+      height: 400px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(242, 239, 236);
+
+    }
+
+    .categories-card {
+      background-color: rgb(240, 238, 241);
+      width: 200px;
+      height: 250px;
+      border-radius: 3px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      padding: 10px;
+      border-style: solid;
+    }
+
+    .categories-card-title-1 {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      text-align: center;
+
+    }
+
+    .heading-bags {
+      text-align: center;
+    }
+
+    .footer-1 {
+      height: 300px;
+      background-color: rgb(4, 4, 46);
+    }
+
+    .buy-btn {
+      height: 30px;
+      width: 100px;
+      color: white;
+      border-radius: 3px;
+      border-style: solid;
+      background-color: rgb(240, 9, 163);
+      margin-left: 8px;
+
+    }
+
+    .View-btn {
+      height: 30px;
+      width: 100px;
+      color: rgb(5, 5, 5);
+      border-radius: 3px;
+      border-style: solid;
+      background-color: white;
+      margin-left: 8px;
+    }
+
+    .div-2 {
+      margin-left: 30px;
+      margin-right: 30px;
+      height: 400px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(242, 239, 236);
+
+
+    }
+
+    .rtc {
+      background-color: rgb(212, 227, 239);
+    }
+
+    .navbar {
+      background-color: rgb(21, 21, 111);
+      height: 50px;
+      align-items: center;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: sticky;
+
+    }
+
+    .logo {
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+    }
+
+    .home {
+      height: 30px;
+      text-decoration: none;
+      margin: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 40px;
+      font-size: 4px;
+      color: white;
+    }
+
+    .profile {
+      height: 60px;
+      width: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 100%;
+    }
+
+    .sign-up {
+      height: auto;
+      text-decoration: none;
+      color: white;
+      margin-top: 35px;
+      margin-bottom: 35px;
+
+    }
+
+    .sign-in {
+      height: auto;
+      text-decoration: none;
+      color: white;
+      margin-left: 90%;
+      margin-bottom: 35px;
+    }
+
+    .add-to-cart {
+      height: 40px;
+      width: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-left: 80%;
+    }
+
+    .return-order {
+      height: auto;
+      text-decoration: none !important;
+      color: white;
+      margin-left: 90%;
+
+    }
+
+    .search-bar {
+      width: 250px;
+      height: 33px;
+      border-color: black;
+      border-style: solid;
+      margin-top: 7px;
+    }
+
+    .search-button {
+      height: 33px;
+      width: 70px;
+      margin-left: px;
+      margin-right: 50px;
+      border-color: black;
+      border-style: solid;
+    }
+
+    .categories-1 {
+      text-decoration: none;
+    }
+
+    .div-3 {
+      margin-left: 30px;
+      margin-right: 30px;
+      height: 400px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(242, 239, 236);
+    }
+
+    .ft-heading {
+      background-color: rgb(212, 227, 239);
+      border-radius: 15px;
+      text-align: center;
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body class="body">
+
+  <div class="navbar">
+
+    <a href="../pages in navbar/profile.html">
+      <img src="../images/user.png">
+
+      <a href="../pages in navbar/home.html">
+        <img src="../images/home.png" class="home" />
+      </a>
+      <form id="form">
+        <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+        <button class="search-button">Search</button>
+    </a>
+    </form>
+
+    <a href="../pages/Notification.html">
+      <img src="../images/notification.png" class="home" />
+
+
+
+      <a href="../pages in navbar/addtocart.html">
+        <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+
+      <a href="../pages in navbar/return.html" class="categories-1">
+        <h3 class="return-order">Return Order</h3>
+      </a>
   </div>
-  <div class="card">
-    <img src="../images/classy.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">classy </h2>
-      <p class="card-price">Price rs 499/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
+
+  <h1 class="ft-heading"> Footwear 👠</h1>
+
+
+  <!-- Categories-->
+  <div class="categories-container-bag">
+    <div>
+      <img src="../images/sandal.jpg" class="categories-card" />
+      <h class="categories-card-title-1">&nbsp &nbspWomen Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp Ru 800/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/morden.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">attractive </h2>
-      <p class="card-price">Price rs 499/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
+    <div>
+      <img src="../images/bellies.webp" class="categories-card" />
+      <h class="categories-card-title-1">&nbsp &nbsp &nbsp Women Trendy Sandal<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp Ru 1200/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/ravishing.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">ravishing </h2>
-      <p class="card-price">Price rs 999/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
+    <div>
+      <img src="../images/attractive.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp &nbsp &nbsp Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp Ru 1100/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/sandal.jpg" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">sandal </h2>
-      <p class="card-price">Price rs 599/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
+    <div>
+      <img src="../images/attractivejuttis.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        Ru 1000/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/sandal1.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">simplat simple</h2>
-      <p class="card-price">Price rs 499/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
+  </div><br>
 
 
+
+  <!--div 2-->
+  <div class="categories-container-bag">
+    <div>
+      <img src="../images/fashion.webp" class="categories-card" />
+      <h class="categories-card-title-1">Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru
+        800/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/trendy.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">Shoes </h2>
-      <p class="card-price">Price rs 999/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
-
+    <div>
+      <img src="../images/latest.webp" class="categories-card" />
+      <h class="categories-card-title-1">&nbsp &nbsp Women Trendy Sandal<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru
+        1200/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/flat1.jpg" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">trendy flat</h2>
-      <p class="card-price">Price rs 499/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
+    <div>
+      <img src="../images/juttis.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp &nbsp &nbsp Trendy Sandal For Girls <br> &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp &nbsp Ru 1100/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/simple.webp" alt="Kid's Wear">
-    <div class="card-content">
-      <h2 class="card-title">simple flats</h2>
-      <p class="card-price">Price rs 799/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
+    <div>
+      <img src="../images/simple.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        Ru 1000/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/fancy.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">styling</h2>
-      <p class="card-price">Price rs 1499/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
+  </div><br>
 
+  <!--div 3-->
+  <div class="categories-container-bag">
+    <div>
+      <img src="../images/sandal.jpg" class="categories-card" />
+      <h class="categories-card-title-1">Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru
+        800/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/attractive.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">flaty</h2>
-      <p class="card-price">Price rs 459/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
+    <div>
+      <img src="../images/trendy.webp" class="categories-card" />
+      <h class="categories-card-title-1">&nbsp &nbsp &nbsp Women Trendy Sandal<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp Ru 1200/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-
-<div class="card">
-    <img src="../images/causalf.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">causalf </h2>
-      <p class="card-price">Price rs 2399/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
+    <div>
+      <img src="../images/sandal1.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp &nbsp &nbsp Women Trendy Sandal <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp Ru 1100/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-
-
-<div class="card">
-    <img src="../images/fabulous.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">branded </h2>
-      <p class="card-price">Price rs 499/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-
+    <div>
+      <img src="../images/attractivejuttis.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        Ru 1000/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
-<div class="card">
-    <img src="../images/attractivejuttis.webp" alt="Kid's Wear 1">
-    <div class="card-content">
-      <h2 class="card-title">attract juttis </h2>
-      <p class="card-price">Price rs 1299/-</p>
-      <div class="btn-class"> <button class="buy-button">Buy Now</button>
-        <button class="Add-to-cart">Add to cart</button></div>
-    </div>
-</div>
-
-
+  </div><br>
 <div class="card">
     <img src="../images/juttis.webp" alt="Kid's Wear 1">
     <div class="card-content">
@@ -358,11 +357,45 @@
       <p class="card-price">Price rs 399/-</p>
       <div class="btn-class"> <button class="buy-button">Buy Now</button>
         <button class="Add-to-cart">Add to cart</button></div>
+  <!--div 4-->
+  <div class="categories-container-bag">
+    <div>
+      <img src="../images/sandal.jpg" class="categories-card" />
+      <h class="categories-card-title-1">Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ru
+        800/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
     </div>
-</div>
+    <div>
+      <img src="../images/bellies.webp" class="categories-card" />
+      <h class="categories-card-title-1">&nbsp &nbsp &nbsp Women Trendy Sandal<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp Ru 1200/- only </h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
 
- 
-</div></body>
-         </html>
+    </div>
+    <div>
+      <img src="../images/footwere.jpg" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp &nbsp &nbsp Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        &nbsp Ru 1100/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
+    </div>
+    <div>
+      <img src="../images/attractivejuttis.webp" class="categories-card" />
+      <h class="categories-card-title-1"> &nbsp Women Trendy Sandal<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        Ru 1000/- Only</h><br>
+      <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+      <button class="View-btn">Add to Cart</button>
+    </div>
+  </div><br>
 
-        
+
+
+
+
+
+
+</body>
+
+</html>
