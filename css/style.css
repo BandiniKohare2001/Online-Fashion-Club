@@ -8,7 +8,9 @@
     flex-direction: row;
     justify-content: flex-end;
 }
-
+.sign-up:hover{
+    width: 100px;
+}
 .sign-up {
     height: 40px;
     width: 90px;
@@ -22,7 +24,8 @@
     font-size: 17px;
     margin-bottom: 10px;
 }
-
+.sign-in:hover{
+    width: 100px;}
 .sign-in {
     height: 40px;
     width: 90px;
@@ -39,7 +42,7 @@
 }
 
 .navbar {
-    background-color:  rgb(18, 18, 112);
+    background-color:  rgb(8, 8, 104);
     height: 50px;
     align-items: center;
     padding-left: 100px;
@@ -51,6 +54,9 @@
     justify-content: space-between;
     position: sticky;
     margin-top: 7px;
+    position: static;
+    float: none;
+    color: #0F1111;
 }
 
 .logo {
