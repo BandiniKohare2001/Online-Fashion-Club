@@ -11,6 +11,7 @@
     justify-content: flex-end;
 }
 .sign-up:hover{
+    height: 50px;
     width: 100px;
 }
 .sign-up {
@@ -27,7 +28,9 @@
     margin-bottom: 10px;
 }
 .sign-in:hover{
-    width: 100px;}
+    height: 50px;
+    width: 100px;
+}
 .sign-in {
     height: 40px;
     width: 90px;
@@ -45,9 +48,8 @@
 
 .navbar {
     background-color:  rgb(8, 8, 104);
-    height: 50px;
-    align-items: center;
-    padding-left: 100px;
+    height: 80px;
+    align-items: center; 
     padding-right: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -59,26 +61,37 @@
     position: static;
     float: none;
     color: #0F1111;
+    margin-bottom: 20px;
 }
+.logo:hover{
+    height: 90px;
 
+}
 .logo {
-    height: 100px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    height: 80px;
+   display: block;
+    position: sticky;
+    margin-left: 7px;
+    border-radius: 3px 50px 3px 35px;
+
+}
+.home:hover{
+    height: 40px;
 }
 
 .home {
     height: 30px;
     text-decoration: none;
-    margin: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px;
+    padding: px;
     font-size: 4px;
     color: white;
+}
+.profile:hover {
+    height: 65px;
+    width: 62px;
 }
 
 .profile {
@@ -88,6 +101,10 @@
     flex-direction: row;
     justify-content: space-between;
     margin-right: 100%;
+}
+.add-to-cart:hover{
+    height: 50px;
+    width: 40px;
 }
 
 .add-to-cart {
@@ -159,21 +176,23 @@ height: 110px;
 }
 
 .search-bar {
-    width: 280px;
-    height: 33px;
+    width: 430px;
+    height: 45px;
     border-color: black;
     border-style: solid;
-    border-radius: 3px;
+    border-radius: 7px;
+    font-size: 18px;
 }
 
 .search-button {
-    height: 33px;
-    width: 80px;
+    height: 45px;
+    width: 90px;
     margin-left: px;
     margin-right: 50px;
     border-color: black;
     border-style: solid;
-    border-radius: 3px;
+    border-radius: 7px;
+    font-size: 18px;
 }
 
 .shopnow-btn {
