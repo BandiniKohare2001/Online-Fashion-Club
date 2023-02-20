@@ -62,7 +62,8 @@
 }
 
 .logo {
-    height: 60px;
+    height: 100px;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -348,8 +349,19 @@ height: 110px;
 .anc {
     text-decoration: none !important;
     color: white;
-<<<<<<< HEAD
+
 }
-=======
+.about-2 {
+    position: absolute;
+    top: 25px;
+    margin-left: 1200px;
+    color: #e6e6ff;
 }
->>>>>>> 0cfb3c975c210e46bca6f992b93b017ce42437c2
+
+.about-list-2 {
+    position: absolute;
+    top: 80px;
+    margin-left: 1200px;
+    color: #e6e6ff;
+    font-size: 20px;
+}
