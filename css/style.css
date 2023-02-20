@@ -37,7 +37,7 @@
 }
 
 .navbar {
-    background-color: rgb(21, 21, 111);
+    background-color:  rgb(18, 18, 112);
     height: 50px;
     align-items: center;
     padding-left: 100px;
@@ -331,4 +331,8 @@
 .anc {
     text-decoration: none !important;
     color: white;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0cfb3c975c210e46bca6f992b93b017ce42437c2
