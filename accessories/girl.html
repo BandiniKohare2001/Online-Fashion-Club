@@ -1,9 +1,390 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>girl-accessories</title>
+<title>Accessories</title>
+    <style>
+
+    .second_div{
+
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.offer-img{
+    height: 400px;
+    width: 90%;
+     display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+
+}
+.categories-container-accessories{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(59, 231, 165);
+    
+}
+.categories-card{
+    background-color: rgb(240, 238, 241);
+    width: 200px;
+    height: 250px;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    padding: 10px;
+    border-style: solid;
+}
+
+.main-categories-card
+{
+    background-color: rgb(145, 225, 228);
+    width: 200px;
+    height: 250px;
+    border-bottom-left-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    padding: 5px;
+    /* border-style: solid; */
+}
+.main-categories-card:hover
+{
+    background-color: rgb(96, 224, 84);
+    width: 250px;
+    height: 300px;
+}
+
+.cat-name{
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+
+.offer-categories-card{
+    background-color: rgb(107, 253, 241);
+    width: 210px;
+    height: 260px;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    padding: 5px;
+
+}
+.offer-categories-card:hover{
+    background-color: rgb(26, 7, 24);
+    width: 250px;
+    height: 300px;
+}
+
+
+.categories-card-title-1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.heading-bags{
+    text-align: center;
+}
+.footer-1{
+    height: 300px;
+    background-color: rgb(4, 4, 46);
+}
+.buy-btn{
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    background-color: rgb(240, 9, 163);
+    margin-left: 8px;
+   
+}
+.View-btn{
+    height: 30px;
+    width: 100px;
+    color: rgb(5, 5, 5);
+    border-radius: 3px;
+    border-style: solid;
+    background-color:white;
+    margin-left: 8px;
+}
+.div-2{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(242, 239, 236);
+    
+    
+ }
+ .rtc{
+    background-color: rgb(212, 227, 239);
+}
+
+.navbar{
+    background-color: rgb(21, 21, 111);
+    height: 50px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    
+ }
+.logo{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.home{
+    height: 30px;
+    text-decoration: none;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 4px;
+    color: white;
+}
+.profile{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100%;
+}
+.sign-up{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.sign-in{
+    height: auto;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    margin-bottom: 35px;
+}
+.add-to-cart{
+    height: 40px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 80%; 
+}
+.return-order{
+    height: auto;
+    text-decoration: none !important;
+    color: white;
+    margin-left: 90%;
+    
+}.search-bar{
+ width: 250px;
+height: 33px;
+border-color: black;
+border-style: solid ;
+margin-top: 7px;
+}
+.search-button{
+    height: 33px;
+    width: 70px;
+    margin-left: px;
+    margin-right: 50px;
+    border-color: black;
+    border-style: solid;
+}
+.categories-1{
+    text-decoration: none;
+}
+.div-3{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(228, 250, 187); 
+ }
+
+ .ft-heading{
+    height: 250px;
+       background-color: rgb(245, 214, 245);
+ }
+
+ .ft-heading:hover{
+    background-color: rgb(186, 242, 252);
+ }
+ .ft-heading-img{
+    display: block;   
+}
+</style>
 </head>
-<body>
-    <h1>Girl Accessories</h1>
+<body class="body">
+
+    <div class="navbar">
+
+        <a href="../pages in navbar/profile.html">
+            <img src="../images/user.png">
+
+         <a href="../pages in navbar/home.html">
+            <img src="../images/home.png" class="home" />
+         </a>
+        <form id="form"> 
+            <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+            <button class="search-button">Search</button></a>
+          </form>
+
+          <a href="../pages/Notification.html">
+            <img src="../images/notification.png" class="home" />
+
+            
+            
+            <a href="../pages in navbar/addtocart.html">
+                 <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+
+                 <a href="../pages in navbar/return.html" class="categories-1"><h3 class="return-order">Return Order</h3></a>
+        </div>
+        
+      <!-- <div class="ft-heading"><img src="../categories pages/accessories-img/men-font.png" alt="" class="ft-heading-img"></div> -->
+    <!-- <div><img src="../categories pages/accessories-img/women-main.jpg" alt="" class="ft-heading-img"></div> -->
+
+
+     <!--div 2-->
+
+    <div class="categories-container-accessories">
+        <div>
+             <img src="../categories pages/accessories-img/girl-1.jpg" class="categories-card" />
+                <h class="categories-card-title-1">Divya hair accesories<br>Ru 800/- only </h><br>
+                <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+                <button class="View-btn">Add to Cart</button>
+        </div>
+        <div>
+            <img src="../categories pages/accessories-img/women-2.webp" class="categories-card" />
+               <h class="categories-card-title-1">        JACINTA WATCH BRACELET STACK <br>                            Ru 1200/- only </h><br>
+               <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+               <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+        <img src="../categories pages/accessories-img/women-3.webp" class="categories-card" />
+           <h class="categories-card-title-1">              FELICA WATCH BRACELET STACK <br>                              Ru 1100/- Only</h><br>
+           <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+           <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+       <img src="../categories pages/accessories-img/women-4.webp" class="categories-card" />
+          <h class="categories-card-title-1">     ICY BLUE SCRUNCHIE SET<br>                                  Ru 1000/- Only</h><br>
+          <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+       <button class="View-btn">Add to Cart</button></div></div><br>
+      
+      
+       <div class="categories-container-accessories">
+        <div>
+             <img src="../categories pages/accessories-img/women-5.webp" class="categories-card" />
+                <h class="categories-card-title-1">NEBULA BLACK DIAL SILVER WATCH<br>                                 Ru 800/- only </h><br>
+                <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+                <button class="View-btn">Add to Cart</button>
+        </div>
+        <div>
+            <img src="../categories pages/accessories-img/women-6.webp" class="categories-card" />
+               <h class="categories-card-title-1">Gift FLORAL LOVE SCARF <br>                            Ru 1200/- only </h><br>
+               <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+               <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+        <img src="../categories pages/accessories-img/women-7.webp "class="categories-card" />
+           <h class="categories-card-title-1">ELEGANT HEART CHARM ROSEGOLD <br>                             Ru 1100/- Only</h><br>
+           <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+           <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+       <img src="../categories pages/accessories-img/women-8.webp" class="categories-card" />
+          <h class="categories-card-title-1">Self Textured Buckle Belt - Tan <br>                                  Ru 1000/- Only</h><br>
+          <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+       <button class="View-btn">Add to Cart</button></div></div><br>
+       <div class="categories-container-accessories">
+
+
+
+        <div>
+             <img src="../categories pages/accessories-img/women-9.webp" class="categories-card" />
+                <h class="categories-card-title-1">Women Casual Brow<br>                                 Ru 800/- only </h><br>
+                <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+                <button class="View-btn">Add to Cart</button>
+        </div>
+        <div>
+            <img src="../categories pages/accessories-img/women-10.webp" class="categories-card" />
+               <h class="categories-card-title-1">        Women White Sling Bag <br>                            Ru 1200/- only </h><br>
+               <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+               <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+        <img src="../categories pages/accessories-img/women-11.webp" class="categories-card" />
+           <h class="categories-card-title-1">Trendy Green Artificial Leather Wallet<br>Ru 1100/- Only</h><br>
+           <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+           <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+       <img src="../categories pages/accessories-img/women-12.webp" class="categories-card" />
+          <h class="categories-card-title-1"> Casual Orange, Pink Clutch<br>                                  Ru 1000/- Only</h><br>
+          <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+       <button class="View-btn">Add to Cart</button></div></div><br>
+      
+      
+       <div class="categories-container-accessories">
+        <div>
+             <img src="../categories pages/accessories-img/women-13.webp" class="categories-card" />
+                <h class="categories-card-title-1">Casual Orange, Pink Clutch<br>                                 Ru 800/- only </h><br>
+                <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+                <button class="View-btn">Add to Cart</button>
+        </div>
+        <div>
+            <img src="../categories pages/accessories-img/women-14.webp" class="categories-card" />
+               <h class="categories-card-title-1">Full Rim Cat-eyed Anti Glare<br>                            Ru 1200/- only </h><br>
+               <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+               <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+        <img src="../categories pages/accessories-img/women-15.webp" class="categories-card" />
+           <h class="categories-card-title-1">Women Black Heels Sandal<br>                             Ru 1100/- Only</h><br>
+           <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+           <button class="View-btn">Add to Cart</button>
+       </div>
+       <div>
+       <img src="../categories pages/accessories-img/women-16.webp" class="categories-card" />
+          <h class="categories-card-title-1"> Casual, Formal, Party Pink Clutch - Mini <br>                                  Ru 1000/- Only</h><br>
+          <a href="../categories pages/bagreference.html"><button class="buy-btn">Buy Now</button></a>
+       <button class="View-btn">Add to Cart</button></div></div><br>
+
 </body>
 </html>
