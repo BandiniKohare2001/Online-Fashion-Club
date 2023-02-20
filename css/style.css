@@ -48,7 +48,7 @@
 
 .navbar {
     background-color:  rgb(8, 8, 104);
-    height: 80px;
+    height: 78px;
     align-items: center; 
     padding-right: 100px;
     padding-top: 5px;
@@ -67,7 +67,7 @@
 
 }
 .logo {
-    height: 80px;
+    height: 75px;
    display: block;
     position: sticky;
     margin-left: 7px;
@@ -87,6 +87,18 @@
     padding: px;
     font-size: 4px;
     color: white;
+    margin-left: 30px;
+}
+.not{
+    height: 30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: px;
+    font-size: 4px;
+    color: white;
+
 }
 .profile:hover {
     height: 65px;
@@ -99,7 +111,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 100%;
 }
 .add-to-cart:hover{
     height: 50px;
@@ -121,6 +132,13 @@
     text-decoration: none;
     color: white;
     margin-left: 90%;
+}
+.menu{
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .heading-categori {
@@ -175,17 +193,18 @@ height: 110px;
 }
 
 .search-bar {
-    width: 430px;
-    height: 43px;
+    width: 400px;
+    height: 40px;
     border-color: black;
     border-style: solid;
     border-radius: 7px;
     font-size: 18px;
+    margin-left: 50px;
 }
 
 .search-button {
-    height: 43px;
-    width: 90px;
+    height: 40px;
+    width: 74px;
     margin-left: px;
     margin-right: 50px;
     border-color: black;
