@@ -89,6 +89,9 @@
     color: white;
     margin-left: 30px;
 }
+.not:hover{
+    height: 40px;
+}
 .not{
     height: 30px;
     text-decoration: none;
