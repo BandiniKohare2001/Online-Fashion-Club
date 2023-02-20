@@ -21,6 +21,8 @@
     border-radius: 10px;
     margin-left: 40px;
     border-color: #353573;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
 
 .sign-in {
@@ -28,12 +30,14 @@
     width: 90px;
     text-decoration: none;
     color: white;
-    margin-left: 30px;
+    font-size: 17px;
+
     border-radius: 10px;
     background-color: rgb(38, 38, 117);
     margin-top: 15px;
     margin-right: 50px;
     border-color: #353573;
+    margin-bottom: 10px;
 }
 
 .navbar {
@@ -98,12 +102,16 @@
 
 .heading-categori {
     text-align: start;
+    margin-left: 50px;
 }
 
 .categories-container {
     display: flex;
+    background-color: #f7f7f4;
     justify-content: space-around;
-    background-color: rgb(249, 235, 217);
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .categories {
@@ -113,11 +121,14 @@
     border-radius: 10px;
     text-align: center;
 }
+.categories-card:hover {
+width: 110px;
+height: 110px;
+}
 
 .categories-card {
-    background-color: rgb(213, 151, 222);
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 60px;
     display: block;
     margin-left: auto;
