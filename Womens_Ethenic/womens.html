@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kids Wear</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .navbar {
+      background-color: rgb(21, 21, 111);
+      height: 60px;
+      align-items: center;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: sticky;
+      margin-top: 7px;
+    }
+
+    .logo {
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    .home {
+      height: 40px;
+      text-decoration: none;
+      margin: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 40px;
+      font-size: 4px;
+      color: white;
+    }
+
+    .profile {
+      height: 60px;
+      width: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 100%;
+    }
+
+    .add-to-cart {
+      height: 45px;
+      width: 35px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-left: 80%;
+      margin-right: 30px;
+    }
+
+    .return-order {
+      height: auto;
+      text-decoration: none;
+      color: white;
+      margin-left: 90%;
+    }
+
+    .search-bar {
+      width: 280px;
+      height: 40px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 3px;
+    }
+
+    .search-button {
+      height: 40px;
+      width: 80px;
+      margin-left: px;
+      margin-right: 50px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 3px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      margin: 50px;
+      background-color: #67afce;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: #525aa7 2px 2px 2px 2px;
+      border: solid black 2px;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #333;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .card {
+      width: 250px;
+      margin: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(41, 45, 178, 0.3);
+      overflow: hidden;
+    }
+
+    .card img {
+      margin-left: 50px;
+      margin-top: 20px;
+      justify-content: center;
+      justify-items: center;
+      box-shadow: 2px 2px 2px 2px#e67fe0;
+      width: 150px;
+      height: 200px;
+    }
+
+    .card-content {
+      padding: 6px;
+    }
+
+    .card-title {
+      text-align: center;
+      text-shadow: 1px 2px #333;
+      font-size: 24px;
+      margin: 4px;
+      font-weight: 200;
+    }
+
+    .card-price {
+      margin: 7px;
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: 800px;
+    }
+
+    .buy-button {
+      height: 35px;
+      width: 100px;
+      color: white;
+      border-radius: 3px;
+      border-style: solid;
+      background-color: rgb(240, 9, 163);
+      margin-left: 12px;
+
+
+      cursor: pointer;
+    }
+
+    .Add-to-cart {
+      height: 35px;
+      width: 100px;
+      color: rgb(5, 5, 5);
+      border-radius: 3px;
+      border-style: solid;
+      background-color: white;
+      margin-left: 12px;
+      cursor: pointer;
+    }
+
+    .footer-logo {
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .marq {
+      background-color: rgb(219, 242, 242);
+    }
+
+    .image {
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .img1 {
+      height: 300px;
+      width: 300px;
+      box-shadow: 0px 0px 10px #dbe272;
+    }
+
+    .sore-img {
+      height: 100px;
+      width: 100px;
+    }
+
+    .add {
+      height: 300px;
+      margin-bottom: 150px;
+      margin-top: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-right: 100px;
+      background-color: rgb(232, 241, 247);
+      margin-left: 100px;
+      border-radius: 30px;
+      margin-bottom: 40px;
+    }
+
+    .add-img {
+      margin-top: 20px;
+      height: 350px;
+      width: 430px;
+    }
+
+    .add-img2 {
+      height: 300px;
+      width: 300px;
+      border-radius: 30px;
+    }
+
+    .u-list {
+      margin-top: 60px;
+      font-size: 30px;
+      margin-right: 5px;
+    }
+
+    .second_div {
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+
+    .offer-img {
+      margin-top: 40px;
+      height: 400px;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+
+    .footer {
+      position: relative;
+      background-color: #040436;
+      height: 300px;
+      margin-top: 80px;
+    }
+
+    .about {
+      position: absolute;
+      top: 25px;
+      margin-left: 80px;
+      color: #e6e6ff;
+    }
+
+    .about-list {
+      position: absolute;
+      top: 80px;
+      margin-left: 76px;
+      color: #e6e6ff;
+      font-size: 20px;
+    }
+
+    .help {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 25px;
+    }
+
+    .help-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .policy {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 25px;
+    }
+
+    .policy-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .social {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 25px;
+    }
+
+    .social-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .contact {
+      margin-left: 50px;
+    }
+
+    .call {
+      text-decoration: none !important;
+    }
+
+    .anc {
+      text-decoration: none !important;
+      color: white;
+    }
+    .hea{
+      background-color: rgb(165, 202, 226);
+      text-align: center;
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+
+
+
+<body>
+
+  <div class="navbar">
+
+    <a href="../pages in navbar/profile.html">
+      <img src="../images/user.png">
+
+      <a href="../index.html">
+        <img src="../images/home.png" class="home" />
+      </a>
+      <form id="form">
+        <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+        <button class="search-button">Search</button>
+    </a>
+    </form>
+
+    <a href="../pages/Notification.html">
+      <img src="../images/notification.png" class="home" />
+
+
+
+      <a href="../pages in navbar/addtocart.html">
+        <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+
+      <a href="../pages in navbar/return.html" class="categories-1">
+        <h3 class="return-order">Return Order</h3>
+      </a>
+  </div>
+<h1 class="hea">Womens Ethenic Wear</h1>
+
+<div class="container">
+
+
+  <div class="card">
+    <img src="./images/jacket/jacket1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket8.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket9.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket10.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket11.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket12.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket13.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket14.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket15.png"alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/jacket/jacket16.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Jacket</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/sh1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt8.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt9.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt10.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt11.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/shirts/shirt12.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/T.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt8.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tshirt/tshirt9.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">T-Shirt</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/t.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/to5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top8.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top9.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./images/tops/top10.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Top</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/dresses.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/drece1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/drece2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/drece3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/drece4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/drece5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/drece6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/Dressses/drece7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Dress</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/kurta/kurta1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Kurti</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/kurta/kurta2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Kurti</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/kurta/kurta3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Kurti</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/kurta/kurta4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Kurti</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/kurta/kurta5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Kurti</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/kurta/kurta6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Kurti</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/kurta/kurta7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Kurti</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/lehenga/lehenga1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Lehenga</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/lehenga/lehenga2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Lehenga</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/lehenga/lehenga3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Lehenga</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/lehenga/lehenga4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Lehenga</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/lehenga/lehenga5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Lehenga</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/lehenga/lehenga6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Lehenga</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/lehenga/lehenga7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Lehenga</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img src="images/saree/saree1.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Saree</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/saree/saree2.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Saree</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/saree/saree3.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Saree</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/saree/saree4.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Saree</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/saree/saree5.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Saree</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/saree/saree6.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Saree</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/saree/saree7.png" alt="winter wear">
+    <div class="card-content">
+      <h2 class="card-title">Saree</h2>
+      <p class="card-price">Price 1499/- Only</p>
+      <a href="../buy.html">
+        <button class="buy-button">Buy Now</button></a>
+      <button class="Add-to-cart">Add to cart</button>
+    </div>
+  </div>
+  
+   
+  </div>
+
+  <div class="footer">
+    <h2 class="about">CONTACT</h2><br>
+    <p class="about-list">
+      <a href="mailto:tinukohare@gmail.com" class="anc">
+        <img src="./images/email.png" height="30px" alt="E-mail" /> E-mail: rtcfashionclub@gmail.com
+      </a><br>
+      <a href="tel:+91-8459562384" class="anc">
+        <img src="./images/call.png" height="30px" alt="Call" />
+        <h class="call">Call: +91 8459562384<br>
+      </a>
+
+      <a href="https://goo.gl/maps/XYayxp7jYfVYHPRCA" class="anc">
+        <img src="./images/location.png" height="30px" /> Address: Nagpur
+      </a><br>
+    </p>
+
+
+    <h2 class="help"> HELP</h2>
+    <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
+
+    <h2 class="policy"> POLICY</h2>
+    <p class="policy-list">Return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+
+
+    <h2 class="social"> SOCIAL</h2>
+    <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+  </div>
+
+</body>
+
+</html>

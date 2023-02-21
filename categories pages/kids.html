@@ -3,29 +3,30 @@
   <head>
     <title>Kids Wear</title>
     <style>
-        .navbar{
+        .navbar {
     background-color: rgb(21, 21, 111);
-    height: 80px;
+    height: 40px;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: sticky;
-    
- }
-.logo{
+    margin-top: 7px;
+}
+
+.logo {
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
 }
-.home{
-    height: 30px;
+
+.home {
+    height: 40px;
     text-decoration: none;
     margin: 5px;
     display: flex;
@@ -35,7 +36,8 @@
     font-size: 4px;
     color: white;
 }
-.profile{
+
+.profile {
     height: 60px;
     width: 60px;
     display: flex;
@@ -43,35 +45,39 @@
     justify-content: space-between;
     margin-right: 100%;
 }
-.sign-up{
-    height: auto;
-    text-decoration: none;
-    color: white;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    
-}
-.sign-in{
-    height: auto;
-    text-decoration: none;
-    color: white;
-    margin-left: 90%;
-    margin-bottom: 35px;
-}
-.add-to-cart{
-    height: 40px;
-    width: 30px;
+
+.add-to-cart {
+    height: 45px;
+    width: 35px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-left: 80%; 
+    margin-left: 80%;
+    margin-right: 30px;
 }
-.return-order{
+
+.return-order {
     height: auto;
     text-decoration: none;
     color: white;
     margin-left: 90%;
-    
+}
+.search-bar {
+    width: 280px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.search-button {
+    height: 30px;
+    width: 80px;
+    margin-left: px;
+    margin-right: 50px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
 }
       body {
         font-family: Arial, sans-serif;
@@ -79,14 +85,19 @@
         padding: 0;
       }
       header {
-        background-color: #8e97d6;
-        padding: 20px;
+        margin: 10px;
+        background-color: #f293c4;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: #900d8e 2px 2px 2px 2px;
+        border: solid black 2px;
+      
       }
       h1 {
-        font-size: 48px;
+        font-size: 40px;
         color: #333;
-        margin: 0;
+        margin:auto;
       }
       .container {
         display: flex;
@@ -107,9 +118,9 @@
         margin-top: 10px;
         justify-content: center;
         justify-items: center;
-        box-shadow:  2px 2px 2px 2px#e67fe0;
+        box-shadow:  2px 2px 2px 2px#3c434a;
         width: 150px;
-        height: 180px;
+        height: 200px;
       }
       .card-content {
         padding: 6px;
@@ -129,85 +140,241 @@
         margin-bottom: 10px;
         font-weight: 800px;
       }
-      .buy-button{
-        display: block;
-        margin-top: 5px;
-        width: 100px;
-        padding: 10px;
-        background-color: #d86bc4;
-        color: #333;
-        border: none;
-        font-size: 16px;
-        font-weight: 400;
-        border-radius: 5px;
-        cursor: pointer;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      
+      .buy-button {
+      height: 35px;
+      width: 100px;
+      color: white;
+      border-radius: 3px;
+      border-style: solid;
+      background-color: rgb(240, 9, 163);
+      margin-left: 8px;
+      cursor: pointer;
       }
-      .Add-to-cart{
-        display: block;
-        margin-top: 5px;
-        width: 100px;
-        padding: 10px;
-        background-color: #7fceee;
-        color: #333;
-        border: none;
-        font-size: 16px;
-        font-weight: 400;
-        border-radius: 5px;
-        cursor: pointer;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      
+      .Add-to-cart {
+        height: 35px;
+      width: 100px;
+      color: rgb(5, 5, 5);
+      border-radius: 3px;
+      border-style: solid;
+      background-color: white;
+      margin-left: 8px;
+      cursor: pointer;
       }
+      .footer-logo {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.marq {
+    background-color: rgb(219, 242, 242);
+}
+
+.image {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.img1 {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 10px #dbe272;
+}
+
+.sore-img {
+    height: 100px;
+    width: 100px;
+}
+
+.add {
+    height: 300px;
+    margin-bottom: 150px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 100px;
+    background-color: rgb(232, 241, 247);
+    margin-left: 100px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.add-img {
+    margin-top: 20px;
+    height: 350px;
+    width: 430px;
+}
+
+.add-img2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.u-list {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.second_div {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.offer-img {
+    margin-top: 40px;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footer {
+    position: relative;
+    background-color: #040436;
+    height: 300px;
+    margin-top: 80px;
+}
+
+.about {
+    position: absolute;
+    top: 25px;
+    margin-left: 80px;
+    color: #e6e6ff;
+}
+
+.about-list {
+    position: absolute;
+    top: 80px;
+    margin-left: 76px;
+    color: #e6e6ff;
+    font-size: 20px;
+}
+
+.help {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 500px;
+    top: 25px;
+}
+
+.help-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 500px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.policy {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 760px;
+    top: 25px;
+}
+
+.policy-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 760px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.social {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 1000px;
+    top: 25px;
+}
+
+.social-list {
+    position: absolute;
+    color: #e6e6ff;
+    margin-left: 1000px;
+    top: 90px;
+    font-size: 20px;
+}
+
+.contact {
+    margin-left: 50px;
+}
+
+.call {
+    text-decoration: none !important;
+}
+
+.anc {
+    text-decoration: none !important;
+    color: white;
+}
+.ft-heading {
+      background-color: rgb(212, 227, 239);
+      border-radius: 15px;
+      text-align: center;
+      height: 60px;
+      margin-top: 20px;
+    }
     </style>
   </head>
   <body>
-    <body class="body">
-        <div class="navbar">
     
-            <a href="./pages/user.html">
-                <img src="./images/user.png" class="profile" />
-             </a>
-    
-             <a href="../index.html">
-                <img src="./images/home.png" class="home" />
-             </a>
-            <form id="form"> 
-                <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
-                <button class="search-button">Search</button>
-              </form>
-    
-              <a href="./pages/Notification.html">
-                <img src="./images/notification.png" class="home" />
-    
-                <a href="/pages in navbar/sign-up.html">
-                    <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
-                </a>
-                
-                <a href="./pages in navbar/addtocart.html">
-                     <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
-    
-                     <a href="/pages in navbar/sign-up.html">
-                        <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
-                    </a>
-    
-                     <a href="./pages in navbar/return.html"><h3 class="return-order">Return Order</h3></a>
-                     
-            </div>
-    <header>
-      <h1>KIDS WEAR</h1>
-    </header>
+<body class="body">
+  <div class="top-heading">
+     
+  </div>
+  <div class="navbar">
+
+      <a href="./pages/user.html">
+          <img src="./images/user.png" class="profile" />
+      </a>
+
+      <a href="../index.html">
+          <img src="./images/home.png" class="home" />
+      </a>
+      <form id="form">
+          <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+          <button class="search-button">Search</button>
+      </form>
+
+      <a href="./pages/Notification.html">
+          <img src="./images/notification.png" class="home" />
+
+      </a>
+
+      <a href="./pages in navbar/addtocart.html">
+          <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
+
+      <a href="./pages in navbar/return.html" class="categories-1">
+          <h3 class="return-order">Return Order</h3>
+      </a>
+  </div>
+
+      <h1 class="ft-heading">Kids Wear</h1>
+  
+
     
     <div class="container">
     <div class="card">
             <img src="./images/clothes1.jpg" alt="Kid's Wear">
             <div class="card-content">
               <h2 class="card-title">Kid's Wear</h2>
-              <p class="card-price">Price rs 499/-</p>
+              <p class="card-price">Price 999/- Only</p>
               <button class="buy-button">Buy Now</button>
               <button class="Add-to-cart">Add to cart</button>
             </div>
@@ -217,7 +384,7 @@
         <img src="./images/clothes2.jpg" alt="Kid's Wear 1">
         <div class="card-content">
           <h2 class="card-title">Kid's Wear </h2>
-          <p class="card-price">Price rs 1499/-</p>
+          <p class="card-price">Price 999/- Only</p>
           <button class="buy-button">Buy Now</button>
           <button class="Add-to-cart">Add to cart</button>
         </div>
@@ -226,7 +393,7 @@
     <img src="./images/clothes3.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 899/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -235,7 +402,7 @@
     <img src="./images/clothes4.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -244,7 +411,7 @@
     <img src="./images/clothes5.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 999/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -253,7 +420,7 @@
     <img src="./images/clothes16.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 599/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -262,7 +429,7 @@
     <img src="./images/clothes6.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -271,7 +438,7 @@
     <img src="./images/clothes7.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 999/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -280,7 +447,7 @@
     <img src="./images/clothes17.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -289,7 +456,7 @@
     <img src="./images/clothes8.jpg" alt="Kid's Wear">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 799/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -298,7 +465,7 @@
     <img src="./images/clothes9.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 1499/-</p>
+      <p class="card-price">Price 999/- Only-</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -307,7 +474,7 @@
     <img src="./images/clothes10.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 459/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -316,7 +483,7 @@
     <img src="./images/clothes11.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 799/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -325,7 +492,7 @@
     <img src="./images/clothes12.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 899/-</p>
+      <p class="card-price">Price 999/- Only-</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -334,7 +501,7 @@
     <img src="./images/clothes13.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -343,7 +510,7 @@
     <img src="./images/clothes14.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -352,7 +519,7 @@
     <img src="./images/clothes15.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 3199/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -361,7 +528,7 @@
     <img src="./images/clothes17.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 2399/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -379,7 +546,7 @@
     <img src="./images/clothes18.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -388,7 +555,7 @@
     <img src="./images/clothes19.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -397,7 +564,7 @@
     <img src="./images/clothes20.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -406,7 +573,7 @@
     <img src="./images/clothes21.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 699/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -415,7 +582,7 @@
     <img src="./images/clothes22.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 1399/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -424,7 +591,7 @@
     <img src="./images/clothes23.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 1299/-</p>
+      <p class="card-price">Price 999/- Only-</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -433,7 +600,7 @@
     <img src="./images/clothes24.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -442,7 +609,7 @@
     <img src="./images/clothes25.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 1499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -451,7 +618,7 @@
     <img src="./images/clothes26.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -460,7 +627,7 @@
     <img src="./images/clothes27.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 399/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -469,7 +636,7 @@
     <img src="./images/clothes28.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 999/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -487,7 +654,7 @@
     <img src="./images/clothes31.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 899/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -496,7 +663,7 @@
     <img src="./images/clothes31.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -505,7 +672,7 @@
     <img src="./images/clothes32.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -523,7 +690,7 @@
     <img src="./images/clothes34.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -532,7 +699,7 @@
     <img src="./images/clothes35.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 569/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -541,7 +708,7 @@
     <img src="./images/clothes36.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 789/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -550,7 +717,7 @@
     <img src="./images/clothes37.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -559,7 +726,7 @@
     <img src="./images/clothes38.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 1499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -568,7 +735,7 @@
     <img src="./images/clothes39.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 1499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -577,7 +744,7 @@
     <img src="./images/clothes40.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear 1</h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -586,7 +753,7 @@
     <img src="./images/clothes41.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 1599/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -595,7 +762,7 @@
     <img src="./images/clothes42.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 789/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -604,7 +771,7 @@
     <img src="./images/clothes43.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 1499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -613,7 +780,7 @@
     <img src="./images/clothes44.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 2399/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -622,7 +789,7 @@
     <img src="./images/clothes45.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 2329/-</p>
+      <p class="card-price">Price 999/- Only-</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -631,7 +798,7 @@
     <img src="./images/clothes46.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -640,7 +807,7 @@
     <img src="./images/clothes47.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 1299/-</p>
+      <p class="card-price">Price 999/- Only-</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -649,7 +816,7 @@
     <img src="./images/clothes48.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -658,7 +825,7 @@
     <img src="./images/clothes49.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear</h2>
-      <p class="card-price">Price rs 1499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -667,7 +834,7 @@
     <img src="./images/clothes10.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 499/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -676,7 +843,7 @@
     <img src="./images/clothes31.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 999/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="Add-to-cart">Add to cart</button>
     </div>
@@ -685,10 +852,37 @@
     <img src="./images/clothes22.jpg" alt="Kid's Wear 1">
     <div class="card-content">
       <h2 class="card-title">Kid's Wear </h2>
-      <p class="card-price">Price rs 1999/-</p>
+      <p class="card-price">Price 999/- Only</p>
       <button class="buy-button">Buy Now</button>
       <button class="buy-button">Add to cart</button>
     </div>
 </div>
  </div>
+ <div class="footer">
+  <h2 class="about">CONTACT</h2><br>
+  <p class="about-list">
+      <a href="mailto:tinukohare@gmail.com" class="anc">
+          <img src="./images/email.png" height="30px" alt="E-mail" /> E-mail: rtcfashionclub@gmail.com
+      </a><br>
+      <a href="tel:+91-8459562384" class="anc">
+          <img src="./images/call.png" height="30px" alt="Call" />
+          <h class="call">Call: +91 8459562384<br></a>
+
+      <a href="https://goo.gl/maps/XYayxp7jYfVYHPRCA" class="anc">
+          <img src="./images/location.png" height="30px" /> Address: Nagpur
+      </a><br></p>
+
+
+  <h2 class="help"> HELP</h2>
+  <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
+
+  <h2 class="policy"> POLICY</h2>
+  <p class="policy-list">Return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+
+
+  <h2 class="social"> SOCIAL</h2>
+  <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+</div>
+    </body>
+  </html>
          
