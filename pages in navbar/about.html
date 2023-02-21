@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Team</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0%;
+		}
+.rtc {
+            background-color: rgb(212, 227, 239);
+            border-radius: 15px;
+        }
+        
+        .top-heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+        .sign-up:hover {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .sign-up {
+            height: 40px;
+            width: 90px;
+            text-decoration: none;
+            color: white;
+            margin-top: 15px;
+            background-color: rgb(38, 38, 117);
+            border-radius: 10px;
+            margin-left: 40px;
+            border-color: #353573;
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        
+        .sign-in:hover {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .sign-in {
+            height: 40px;
+            width: 90px;
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            margin-left: 30px;
+            border-radius: 10px;
+            background-color: rgb(38, 38, 117);
+            margin-top: 15px;
+            margin-right: 50px;
+            border-color: #353573;
+            margin-bottom: 10px;
+        }
+        
+        .navbar {
+            background-color: rgb(8, 8, 104);
+            height: 78px;
+            align-items: center;
+            padding-right: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: sticky;
+            margin-top: 7px;
+            position: static;
+            float: none;
+            color: #0F1111;
+        }
+        
+        .logo:hover {
+            height: 90px;
+        }
+        
+        .logo1 {
+            height: 75px;
+            display: block;
+            position: sticky;
+            margin-left: 7px;
+            border-radius: 3px 50px 3px 35px;
+        }
+        
+        .home:hover {
+            height: 40px;
+        }
+        
+        .home {
+            height: 30px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: px;
+            font-size: 4px;
+            color: white;
+            margin-left: 30px;
+        }
+        
+        .not:hover {
+            height: 40px;
+        }
+        
+        .not {
+            height: 30px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: px;
+            font-size: 4px;
+            color: white;
+        }
+        
+        .profile:hover {
+            height: 65px;
+            width: 62px;
+        }
+        
+        .profile {
+            height: 60px;
+            width: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .add-to-cart:hover {
+            height: 50px;
+            width: 40px;
+        }
+        
+        .add-to-cart {
+            height: 40px;
+            width: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-left: 80%;
+            margin-right: 30px;
+        }
+        
+        .return-order {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+        }
+        
+        .menu {
+            height: auto;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+        .return-order {
+            height: auto;
+            text-decoration: none !important;
+            color: white;
+            margin-left: 90%;
+        }
+        
+        .search-bar {
+            width: 250px;
+            height: 33px;
+            border-color: black;
+            border-style: solid;
+            margin-top: 7px;
+        }
+        
+        .search-button {
+            height: 33px;
+            width: 70px;
+            margin-left: px;
+            margin-right: 50px;
+            border-color: black;
+            border-style: solid;
+        }
+		body {
+			font-family: Arial, sans-serif;
+			background: url(./images/bg.jpg) no-repeat center center fixed;
+			background-size: cover;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.card {
+			width: 350px;
+			height: 450px;
+			background-color: #eff6f8;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			margin: 20px;
+			transition: all 0.3s ease;
+			position: relative;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border: solid black 3px;
+			border-radius: 10%;
+		}
+		.card:hover {
+			transform: scale(1.05);
+			box-shadow: 20px 20px 20px 20px rgba(12, 24, 158, 0.3);
+		}
+		.card img {
+			height: 200px;
+            width: 200px;
+			margin-top:10px;
+            border-radius: 50%;
+			transition: all 0.3s ease;
+			border: solid black 3px;
+			box-shadow: 1px 2px 2px 4px rgb(216, 143, 178);
+		}
+		.card:hover img {
+			transform: scale(1.1);
+		}
+		.card .info {
+			text-align: center;
+			margin-top: 20px;
+	
+		}
+		h1 {
+			color: #faf2f8;
+			font-size: 5em;
+			text-align: center;
+			text-shadow: 2px 2px 4px #000;
+			margin-top: auto;
+            font-family: serif;
+
+	
+		}
+        .city{
+            font-size: 25px;
+            font-weight: bold;
+            margin: 0%;
+        }
+		.big-card{
+			width: 850px;
+			height: 500px;
+			background-color: #eff6f8;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			margin: 20px;
+			transition: all 0.3s ease;
+			position: relative;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border: solid black 3px;
+			border-radius: 5%;
+		}
+		.big-card:hover {
+			transform: scale(1.05);
+			box-shadow: 20px 20px 20px 20px rgba(12, 24, 158, 0.3);
+		}
+		.big-card:hover img {
+			transform: scale(1.1);
+		}
+		.big-card img{
+			height: 500px;
+            width: 850px;
+			transition: all 0.3s ease;
+			border: solid black 3px;
+			box-shadow: 3px 3px 3px 6px rgb(224, 112, 166);
+		} 
+		.footer-logo {
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .marq {
+      background-color: rgb(219, 242, 242);
+    }
+
+    .image {
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .img1 {
+      height: 300px;
+      width: 300px;
+      box-shadow: 0px 0px 10px #dbe272;
+    }
+
+    .sore-img {
+      height: 100px;
+      width: 100px;
+    }
+
+    .add {
+      height: 300px;
+      margin-bottom: 150px;
+      margin-top: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-right: 100px;
+      background-color: rgb(232, 241, 247);
+      margin-left: 100px;
+      border-radius: 30px;
+      margin-bottom: 40px;
+    }
+
+    .add-img {
+      margin-top: 20px;
+      height: 350px;
+      width: 430px;
+    }
+
+    .add-img2 {
+      height: 300px;
+      width: 300px;
+      border-radius: 30px;
+    }
+
+    .u-list {
+      margin-top: 60px;
+      font-size: 30px;
+      margin-right: 5px;
+    }
+
+    .second_div {
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-left: 180px;
+      margin-right: 180px;
+    }
+
+    .offer-img {
+      margin-top: 40px;
+      height: 400px;
+      display: flex;
+      border-radius: 10px;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+
+    .footer {
+      position: relative;
+      background-color: #040436;
+      height: 300px;
+      margin-top: 80px;
+    }
+
+    .about {
+      position: absolute;
+      top: 25px;
+      margin-left: 80px;
+      color: #e6e6ff;
+    }
+
+    .about-list {
+      position: absolute;
+      top: 80px;
+      margin-left: 76px;
+      color: #e6e6ff;
+      font-size: 20px;
+    }
+
+    .help {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 25px;
+    }
+
+    .help-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .policy {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 25px;
+    }
+
+    .policy-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .social {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 25px;
+    }
+
+    .social-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .contact {
+      margin-left: 50px;
+    }
+
+    .call {
+      text-decoration: none !important;
+    }
+
+    .anc {
+      text-decoration: none !important;
+      color: white;
+    }
+    .insta-icons img
+    {
+      margin-top: 50px;
+      margin-right: 200px;
+      height: 40px;
+      width: 40px;
+    }
+    .github-icons img{
+      margin-top: 50px;
+      margin-right: 150px;
+      height: 40px;
+      width: 40px;
+
+    }
+    .twitter-icons img{
+      margin-top: 50px;
+      margin-right: 100px;
+      height: 40px;
+      width: 40px;
+    }
+    .facebook-icons img{
+      margin-bottom: 100px;
+      margin-right: 10px;
+      height: 40px;
+      width: 40px;
+    }
+	</style>
+</head>
+<body>
+	<div class="navbar">
+
+		<a href="./pages/user.html">
+		  <img src="./images/user.png" class="profile" />
+		</a>
+	
+		<a href="../index.html">
+		  <img src="./images/home.png" class="home" />
+		</a>
+		<form id="form">
+		  <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+		  <button class="search-button">Search</button>
+		</form>
+	
+		<a href="./pages/Notification.html">
+		  <img src="./images/notification.png" class="home" />
+	
+		</a>
+	
+		<a href="./pages in navbar/addtocart.html">
+		  <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
+
+		  <a href="./pages in navbar/about.html">
+			<h3 class="about-us">About us</h3>
+		</a>
+	
+		<a href="./pages in navbar/return.html" class="categories-1">
+		  <h3 class="return-order">Return Order</h3>
+		</a>
+	  </div>
+	
+	<h1>Our Guardians</h1>
+	<div class="container">
+	<div class="big-card">
+		<img src="./images/rtc.jpg" alt="rtc team image">
+	</div>
+		<h1>Our RTC Project Team Members</h1>
+         <div class="card">
+			<img src="./images/harshda.jpg" alt="Member 1">
+			<div class="info">
+				<h2>HARSHDA MAHASE</h2>
+				<p class="city">AHEMDNAGAR</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="./images/bandini1.jpg" alt="Member 2">
+			<div class="info">
+				<h2>BANDINI KOHARE </h2>
+                <p class="city">Ballarpur</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="./images/jyoti.jpg" alt="Member 3">
+			<div class="info">
+				<h2>JYOTI</h2>
+                <p class="city">AHEMDNAGAR</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="./images/samiksha.jpg" alt="Member 4">
+			<div class="info">
+				<h2>SAMIKSHA TEMBHURNE</h2>
+				<p class="city">NAGPUR</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="./images/pranay.jpg" alt="Member 5">
+			<div class="info">
+				<h2>PRANAY RAJPUT</h2>
+				<p class="city">NAGPUR</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+             <div class="card">
+			<img src="./images/ganesh.jpg" alt="Member 6">
+			<div class="info">
+				<h2>GANESH</h2>
+				<p class="city">NAGPUR</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+            <div class="card">
+			<img src="./images/aaditya.jpg" alt="Member 7">
+			<div class="info">
+				<h2>AADITYA JADHAV</h2>
+                <p class="city">SHIRDI</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+           <div class="card">
+			<img src="./images/rohan1.jpg" alt="Member 8">
+			<div class="info">
+				<h2>ROHAN SHITOLE</h2>
+				<p class="city"></p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+           <div class="card">
+			<img src="./images/rajnandini.jpg" alt="Member 9">
+			<div class="info">
+				<h2>RAJNANDINI</h2>
+				<p class="city">AHEMDNAGAR</p>
+				<p></p>
+				<p></p>
+			</div>
+		</div>
+			</div>
+		</div>
+</div>
+<div class="footer">
+    <h2 class="about">CONTACT</h2><br>
+    <p class="about-list">
+      <a href="mailto:tinukohare@gmail.com" class="anc">
+        <img src="./images/email.png" height="30px" alt="E-mail" /> E-mail: rtcfashionclub@gmail.com
+      </a><br>
+      <a href="tel:+91-8459562384" class="anc">
+        <img src="./images/call.png" height="30px" alt="Call" />
+        <h class="call">Call: +91 8459562384<br>
+      </a>
+
+      <a href="https://goo.gl/maps/XYayxp7jYfVYHPRCA" class="anc">
+        <img src="./images/location.png" height="30px" /> Address: Nagpur
+      </a><br>
+    </p>
+
+
+    <h2 class="help"> HELP</h2>
+    <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
+
+    <h2 class="policy"> POLICY</h2>
+    <p class="policy-list">Return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+
+
+    <h2 class="social"> SOCIAL</h2>
+    <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+  </div>
+</body>
+</html>
