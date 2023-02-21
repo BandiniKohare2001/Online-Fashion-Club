@@ -13,14 +13,10 @@
             background-color: rgb(242, 239, 236);
         }
         
-        .item:hover {
-            background-color: rgb(193, 223, 241);
-        }
-        
         .item {
             display: block;
-            height: 280px;
-            width: 230px;
+            height: 270px;
+            width: 250px;
             margin: 5px;
             border: 2px solid;
             border-radius: 20px;
@@ -47,25 +43,29 @@
             font-family: 'Lucida handwriting';
         }
         
-        button {
-            margin-top: 5px;
-            height: 30px;
-            width: 90px;
-            border: 1px solid;
-            border-radius: 10px;
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #8abce3;
+            color: #333;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
             cursor: pointer;
         }
         
-        button:hover {
-            background-color: rgb(211, 108, 163);
-        }
-        
-        .btn {
+        .cart {
+            display: block;
             margin-top: 5px;
-            height: 30px;
-            width: 70px;
-            border: 1px solid;
-            border-radius: 10px;
+            font-size: 16px;
+            width: 100%;
+            padding: 10px;
+            background-color: #d86bc4;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
         
         del {
@@ -76,88 +76,317 @@
         .item a {
             text-decoration: none;
         }
+        
+        .page {
+            height: 30px;
+            width: 70px;
+            margin-left: 730px;
+            margin-bottom: 20px;
+        }
+        
+        .navbar {
+            background-color: rgb(21, 21, 111);
+            height: 80px;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: sticky;
+        }
+        
+        .logo {
+            height: 60px;
+            text-align: center;
+        }
+        
+        .home {
+            height: 30px;
+            text-decoration: none;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 40px;
+            font-size: 4px;
+            color: white;
+        }
+        
+        .profile {
+            height: 60px;
+            width: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 100%;
+        }
+        
+        .sign-up {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-top: 35px;
+            margin-bottom: 35px;
+        }
+        
+        .sign-in {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+            margin-bottom: 35px;
+        }
+        
+        .add-to-cart {
+            height: 40px;
+            width: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-left: 80%;
+        }
+        
+        .return-order {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+        }
+        
+        .footer {
+            position: relative;
+            background-color: #040436;
+            height: 300px;
+            margin-top: 80px;
+        }
+        
+        .about {
+            position: absolute;
+            top: 25px;
+            margin-left: 80px;
+            color: #e6e6ff;
+        }
+        
+        .about-list {
+            position: absolute;
+            top: 80px;
+            margin-left: 76px;
+            color: #e6e6ff;
+            font-size: 20px;
+        }
+        
+        .help {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 500px;
+            top: 25px;
+        }
+        
+        .help-list {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 500px;
+            top: 90px;
+            font-size: 20px;
+        }
+        
+        .policy {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 760px;
+            top: 25px;
+        }
+        
+        .policy-list {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 760px;
+            top: 90px;
+            font-size: 20px;
+        }
+        
+        .social {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 1000px;
+            top: 25px;
+        }
+        
+        .social-list {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 1000px;
+            top: 90px;
+            font-size: 20px;
+        }
+        
+        .contact {
+            margin-left: 50px;
+        }
+        
+        .call {
+            text-decoration: none !important;
+        }
+        
+        .anc {
+            text-decoration: none !important;
+            color: white;
+        }
     </style>
 </head>
 
 <body>
-    <div class="women">
-        <img src="../images/images_jwellary/women_2.jpg" height="360px" width="600px">
-        <div class="logo">The Precious perl<br/>Jwellary</div>
 
-    </div>
-    <br/>
-    <div class="box">
-        <div class="item"><img src="../images/images_jwellary/p1.jpg" height="130px">
-            <br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p4.jpg" height="130px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p3.jpg" height="130px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p7.jpg" height="130px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p5.jpg" height="130px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-    </div>
+    <body class="body">
+        <div class="navbar">
 
-    <div class="box">
-        <div class="item"><img src="../images/images_jwellary/p2.jpg" height="130px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p6.jpg" height="130px" width="170px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p13.jpg" height="170px" width="170px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p9.avif" height="130px" width="140px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p10.jpg" height="130px" width="140px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-    </div>
+            <a href="../pages/user.html">
+                <img src="../images/user.png" class="profile" />
+            </a>
+
+            <a href="../index.html">
+                <img src="../images/home.png" class="home" />
+            </a>
+            <form id="form">
+                <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+                <button class="search-button">Search</button>
+            </form>
+
+            <a href="../pages/Notification.html">
+                <img src="../images/notification.png" class="home" />
+
+                <a href="../pages in navbar/sign-up.html">
+                    <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+                </a>
+
+                <a href="../pages in navbar/addtocart.html">
+                    <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+
+                <a href="../pages in navbar/sign-up.html">
+                    <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+                </a>
+
+                <a href="../pages in navbar/return.html">
+                    <h3 class="return-order">Return Order</h3>
+                </a>
+
+        </div>
+        <div class="women">
+            <img src="../images/images_jwellary/women_2.jpg" height="360px" width="600px">
+            <div class="logo">The Precious perl<br/>Jwellary</div>
+
+        </div>
+        <br/>
+        <div class="box">
+            <div class="item"><img src="../images/images_jwellary/p1.jpg" height="130px">
+                <br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p4.jpg" height="130px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p3.jpg" height="130px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p7.jpg" height="130px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p5.jpg" height="130px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+        </div>
+
+        <div class="box">
+            <div class="item"><img src="../images/images_jwellary/p2.jpg" height="130px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p6.jpg" height="130px" width="170px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p13.jpg" height="170px" width="170px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p9.avif" height="130px" width="140px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p10.jpg" height="130px" width="140px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+        </div>
 
 
-    <div class="box">
-        <div class="item"><img src="../images/images_jwellary/p11.jpg" height="150px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p12.jpg" height="150px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p8.jpg" height="150px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p14.jpg" height="150px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-        <div class="item"><img src="../images/images_jwellary/p15.jpg" height="150px"><br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <button class="btn"> Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
-    </div>
+        <div class="box">
+            <div class="item"><img src="../images/images_jwellary/p11.jpg" height="150px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p12.jpg" height="150px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p8.jpg" height="150px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p14.jpg" height="150px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+            <div class="item"><img src="../images/images_jwellary/p15.jpg" height="150px"><br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <button class="btn"> Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button></div>
+        </div>
+        <br/>
+
+        <div class="page">
+            <a href="../Jwellary_pages/silver.html">
+                <button>Next Page</button></a>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <h2 class="about">CONTACT</h2><br>
+            <p class="about-list">
+                <a href="mailto:tinukohare@gmail.com" class="anc">
+                    <img src="../images/email.png" height="30px" alt="E-mail" /> E-mail: rtcfashionclub@gmail.com
+                </a><br>
+                <a href="tel:+91-8459562384" class="anc">
+                    <img src="../images/call.png" height="30px" alt="Call" />
+                    <h class="call">Call: +91 8459562384<br></a>
+
+                <a href="https://goo.gl/maps/XYayxp7jYfVYHPRCA" class="anc">
+                    <img src="../images/location.png" height="30px" /> Address: Nagpur
+                </a><br></p>
 
 
-</body>
+            <h2 class="help"> HELP</h2>
+            <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
+
+            <h2 class="policy"> POLICY</h2>
+            <p class="policy-list">Return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+
+
+            <h2 class="social"> SOCIAL</h2>
+            <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+
+
+            <h2 class="about-2"> ABOUT</h2>
+            <p class="about-list-2">About Us</p>
+        </div>
+
+    </body>
 
 </html>
