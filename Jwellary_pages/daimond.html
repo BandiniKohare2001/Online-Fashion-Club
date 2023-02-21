@@ -13,14 +13,10 @@
             background-color: rgb(242, 239, 236);
         }
         
-        .item:hover {
-            background-color: rgb(193, 223, 241);
-        }
-        
         .item {
             display: block;
-            height: 300px;
-            width: 230px;
+            height: 270px;
+            width: 250px;
             margin: 5px;
             border: 2px solid;
             border-radius: 20px;
@@ -31,46 +27,41 @@
             text-align: center;
         }
         
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         .women {
-            background-image: url("../images/images_jwellary/women_3.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
+            background-color: hsl(233, 47%, 70%);
+            height: 70px;
         }
         
         .logo {
             font-size: 40px;
-            margin-left: 100px;
             text-align: center;
-            padding-left: 650px;
+            padding-top: 10px;
             font-family: 'Lucida handwriting';
         }
         
-        button {
-            margin-top: 5px;
-            height: 30px;
-            width: 90px;
-            border: 1px solid;
-            border-radius: 10px;
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #8abce3;
+            color: #333;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
             cursor: pointer;
         }
         
-        button:hover {
-            background-color: rgb(211, 108, 163);
-        }
-        
-        .btn {
+        .cart {
+            display: block;
             margin-top: 5px;
-            height: 30px;
-            width: 70px;
-            border: 1px solid;
-            border-radius: 10px;
+            font-size: 16px;
+            width: 100%;
+            padding: 10px;
+            background-color: #d86bc4;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
         
         del {
@@ -81,145 +72,460 @@
         .item a {
             text-decoration: none;
         }
+        
+        .page {
+            height: 30px;
+            width: 70px;
+            margin-left: 730px;
+            margin-bottom: 20px;
+        }
+        
+        .rtc {
+            background-color: rgb(212, 227, 239);
+            border-radius: 15px;
+        }
+        
+        .top-heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+        .sign-up:hover {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .sign-up {
+            height: 40px;
+            width: 90px;
+            text-decoration: none;
+            color: white;
+            margin-top: 15px;
+            background-color: rgb(38, 38, 117);
+            border-radius: 10px;
+            margin-left: 40px;
+            border-color: #353573;
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        
+        .sign-in:hover {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .sign-in {
+            height: 40px;
+            width: 90px;
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            margin-left: 30px;
+            border-radius: 10px;
+            background-color: rgb(38, 38, 117);
+            margin-top: 15px;
+            margin-right: 50px;
+            border-color: #353573;
+            margin-bottom: 10px;
+        }
+        
+        .navbar {
+            background-color: rgb(8, 8, 104);
+            height: 78px;
+            align-items: center;
+            padding-right: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: sticky;
+            margin-top: 7px;
+            position: static;
+            float: none;
+            color: #0F1111;
+        }
+        
+        .logo:hover {
+            height: 90px;
+        }
+        
+        .logo {
+            height: 75px;
+            display: block;
+            position: sticky;
+            margin-left: 7px;
+            border-radius: 3px 50px 3px 35px;
+        }
+        
+        .home:hover {
+            height: 40px;
+        }
+        
+        .home {
+            height: 30px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: px;
+            font-size: 4px;
+            color: white;
+            margin-left: 30px;
+        }
+        
+        .not:hover {
+            height: 40px;
+        }
+        
+        .not {
+            height: 30px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: px;
+            font-size: 4px;
+            color: white;
+        }
+        
+        .profile:hover {
+            height: 65px;
+            width: 62px;
+        }
+        
+        .profile {
+            height: 60px;
+            width: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .add-to-cart:hover {
+            height: 50px;
+            width: 40px;
+        }
+        
+        .add-to-cart {
+            height: 40px;
+            width: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-left: 80%;
+            margin-right: 30px;
+        }
+        
+        .return-order {
+            height: auto;
+            text-decoration: none;
+            color: white;
+            margin-left: 90%;
+        }
+        
+        .menu {
+            height: auto;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        
+        .footer {
+            position: relative;
+            background-color: #040436;
+            height: 300px;
+            margin-top: 80px;
+        }
+        
+        .about {
+            position: absolute;
+            top: 25px;
+            margin-left: 80px;
+            color: #e6e6ff;
+        }
+        
+        .about-list {
+            position: absolute;
+            top: 80px;
+            margin-left: 76px;
+            color: #e6e6ff;
+            font-size: 20px;
+        }
+        
+        .help {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 500px;
+            top: 25px;
+        }
+        
+        .help-list {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 500px;
+            top: 90px;
+            font-size: 20px;
+        }
+        
+        .policy {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 760px;
+            top: 25px;
+        }
+        
+        .policy-list {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 760px;
+            top: 90px;
+            font-size: 20px;
+        }
+        
+        .social {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 1000px;
+            top: 25px;
+        }
+        
+        .social-list {
+            position: absolute;
+            color: #e6e6ff;
+            margin-left: 1000px;
+            top: 90px;
+            font-size: 20px;
+        }
+        
+        .contact {
+            margin-left: 50px;
+        }
+        
+        .call {
+            text-decoration: none !important;
+        }
+        
+        .anc {
+            text-decoration: none !important;
+            color: white;
+        }
     </style>
 </head>
 
 <body>
-    <div class="women">
-        <div class="logo">The Precious Daimond <br/>Jwellary</div>
-    </div>
-    <br/>
-    <div class="box">
-        <div class="item"><img src="../images/images_jwellary/D1.jpg" height="130px">
-            <br/>
-            <del>₹4000 </del> <br/>₹3500 <br/>
-            <a href="../buy.html"> <button class="btn"> Buy Now</button> </a><br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-        <div class="item"><img src="../images/images_jwellary/D10.jpg" height="130px">
-            <br/>
-            <del>₹4000 </del><br/> ₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+
+    <body class="body">
+
+
+
+        <div class="navbar">
+
+            <img src="../images/logo.jpg" class="logo" />
+
+            <a href="../index.html">
+                <img src="../images/home.png" class="home" />
+            </a>
+
+            <form id="form">
+                <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+                <button class="search-button">Search</button>
+            </form>
+
+            </a>
+            <a href="../pages in navbar/Notification.html">
+                <img src="../images/notification.png" class="not" />
+            </a>
+
+            <a href="../pages in navbar/addtocart.html">
+                <img src="../images/add-to-cart.png" class="add-to-cart" /></a>
+            <a href="../pages in navbar/signup.html" class="categories-1">
+                <button class="sign-up">Sign Up</button>
+            </a>
+
+            <a href="../pages in navbar/signin.html" class="categories-1">
+                <button class="sign-in">Log In</button>
+            </a>
+            <a href="../pages/user.html">
+                <img src="../images/user.png" class="profile" />
+            </a>
 
         </div>
-        <div class="item"><img src="../images/images_jwellary/D2.jpg" height="130px" width="190px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+        <div class="women">
+            <div class="logo">The Precious Daimond Jwellary</div>
         </div>
-        <div class="item"><img src="../images/images_jwellary/D4.jpg" height="130px" width="190px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+        <br/>
+        <div class="box">
+            <div class="item"><img src="../images/images_jwellary/D1.jpg" height="130px">
+                <br/>
+                <del>₹4000 </del> <br/>₹3500 <br/>
+                <a href="../buy.html"> <button class="btn"> Buy Now</button> </a>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D10.jpg" height="130px">
+                <br/>
+                <del>₹4000 </del><br/> ₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D2.jpg" height="130px" width="190px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D4.jpg" height="130px" width="190px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
         </div>
-    </div>
 
 
-    <div class="box">
-        <div class="item"><img src="../images/images_jwellary/D6.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+        <div class="box">
+            <div class="item"><img src="../images/images_jwellary/D6.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D7.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D8.jpg" height="130px" width="190px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D9.webp" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+
         </div>
-        <div class="item"><img src="../images/images_jwellary/D7.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+
+
+
+        <div class="box">
+            <div class="item"><img src="../images/images_jwellary/D11.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D12.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D14.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D13.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+
+
+
         </div>
-        <div class="item"><img src="../images/images_jwellary/D8.jpg" height="130px" width="190px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="box">
+            <div class="item"><img src="../images/images_jwellary/D5.webp" height="130px" width="190px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D3.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D15.jpg" height="130px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
+            <div class="item"><img src="../images/images_jwellary/D8.jpg" height="130px" width="190px">
+                <br/>
+                <del>₹4000</del><br/>₹3500 <br/>
+                <button class="btn">Buy Now</button>
+                <button class="cart"><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            </div>
         </div>
-        <div class="item"><img src="../images/images_jwellary/D9.webp" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+        <br>
+
+        <div class="page">
+            <a href="../Jwellary_pages/gold.html">
+                <button>Next Page</button></a>
         </div>
-       
-    </div>
+
+        <!--Footer-->
+        <div class="footer">
+            <h2 class="about">CONTACT</h2><br>
+            <p class="about-list">
+                <a href="mailto:tinukohare@gmail.com" class="anc">
+                    <img src="./images/email.png" height="30px" alt="E-mail" /> E-mail: rtcfashionclub@gmail.com
+                </a><br>
+                <a href="tel:+91-8459562384" class="anc">
+                    <img src="./images/call.png" height="30px" alt="Call" />
+                    <h class="call">Call: +91 8459562384<br></a>
+
+                <a href="https://goo.gl/maps/XYayxp7jYfVYHPRCA" class="anc">
+                    <img src="./images/location.png" height="30px" /> Address: Nagpur
+                </a><br></p>
 
 
+            <h2 class="help"> HELP</h2>
+            <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
 
-    <div class="box">
-        <div class="item"><img src="../images/images_jwellary/D11.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
+            <h2 class="policy"> POLICY</h2>
+            <p class="policy-list">Return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+
+
+            <h2 class="social"> SOCIAL</h2>
+            <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+
+
+            <h2 class="about-2"> ABOUT</h2>
+            <p class="about-list-2">About Us</p>
         </div>
-        <div class="item"><img src="../images/images_jwellary/D12.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-        <div class="item"><img src="../images/images_jwellary/D14.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-        <div class="item"><img src="../images/images_jwellary/D13.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-        
-    
-
-    </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="box">
-        <div class="item"><img src="../images/images_jwellary/D5.webp" height="130px" width="190px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-        <div class="item"><img src="../images/images_jwellary/D3.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-        <div class="item"><img src="../images/images_jwellary/D15.jpg" height="130px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-        <div class="item"><img src="../images/images_jwellary/D8.jpg" height="130px" width="190px">
-            <br/>
-            <del>₹4000</del><br/>₹3500 <br/>
-            <button class="btn">Buy Now</button> <br/>
-            <button><a href="../pages in navbar/addtocart.html">Add To Cart</a></button>
-        </div>
-    </div>
-
-</body>
+    </body>
 
 </html>
