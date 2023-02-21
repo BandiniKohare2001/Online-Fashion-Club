@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>men-suits</title>
+    <style>
+      .heading-name-suits{
+         text-align: center;
+         font-size: 35px;
+         background-color: #ccdefc;
+         height: 60px;
+         padding-top: 15px;
+         margin-bottom: 30px;
+
+      }
+        .suit-1{
+   
+   width: 250px;
+   margin-bottom: 15px;
+   border-radius:10px;
+   border: 1px solid black;
+   box-shadow:  1px 1px rgb(1, 1, 16);
+   
+}
+.suit-1-img{
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 200px;
+}
+.suit-1-div2{
+   margin-bottom: 10px;
+   margin-left: 20px;
+}
+.suit-1-name{
+   
+   margin-left: 15px;
+   margin-top: 15px;
+   margin-bottom: 8px;
+}
+.suit-1-off{
+   color: rgb(8, 156, 50);
+
+}
+.suit-1-delivery{
+   
+   margin-left: 15px;
+   margin-bottom: 5px;
+}
+.suit-p{
+   text-align: center;
+}
+.suit-1-buttom{
+   color: azure;
+
+   width: 100px;
+   height:28px;
+   background-color:#f009a3;
+   margin-left: 15px;
+   margin-top: 11px;
+
+   margin-bottom:5px;
+   
+   cursor: pointer;
+   list-style-type: none;
+}
+.suit-1-buttom:hover{
+   color: white;
+   width: 100px;
+   height:30px;
+   font-size:18px;
+   background-color: rgb(9, 178, 9);
+   margin-left: 15px;
+   margin-top: 11px;
+  
+   margin-bottom:5px;
+   cursor: pointer;
+   
+}
+
+.parent-div{
+   margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.parent-div-1{
+   margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.a{
+   position: absolute;
+}
+.b{
+   position: absolute;
+   top:480px
+}
+.c{
+   position: absolute;
+   top:910px
+}
+.d{
+   position: absolute;
+   top:1335px
+}
+.e{
+   position: absolute;
+   top:1761px
+}
+.footer-button{
+   background-color:azure;
+   width: 150px;
+   font-size: 20px;
+   display:block;
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+
+}
+.footer-button:hover{
+   background-color:rgb(91, 195, 247);
+   width: 190px;
+   font-size: 25px;
+   display:block;
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 4 solid black;
+   box-shadow: 1px 1px 2px 1px rgb(8, 10, 11);
+   cursor: pointer;
+   
+}
+
+
+.body{
+   margin: 0px;
+   
+   height:auto;
+   width: auto;
+}
+
+.backend-1-div{
+   position: relative;
+   background-image: url('./image/background-image-bags.jpg');
+   height: 750px;
+
+   background-size: cover;
+   background-repeat: no-repeat;  
+}
+
+.div-2{
+   position: absolute;
+   
+   width: 1200px;
+   top:10px; 
+   left: 1px; 
+}
+
+.last-div{
+   position:absolute;
+   left: 80px;
+   
+}
+.backend-place-order{
+   color:rgb(2, 12, 21);
+   background-color:#f1ce8c;
+   width: 120px;
+   height: 25px;
+   margin-top: 10px;
+   margin-left: 15px;
+   margin-bottom: 10px;
+   cursor: pointer;
+
+
+}
+.backend-place-order:hover{
+   color: azure;
+   background-color: rgb(32, 164, 38);
+   margin-top: 6px;
+   margin-left: 18px;
+   cursor: pointer;
+   width: 125px;
+   height: 25px;
+   font-size: 16px;
+   cursor: pointer;
+   
+
+}
+.back-end-orderplace-div-1{
+
+   
+   background-color:#f1ce8c;
+   margin-bottom: 30px;
+   width: 690px;
+   height: 25px;
+   
+
+}
+.tick-last-page{
+   background-color:red;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:185px;
+   width: 500px;
+   
+}
+.a143{
+   background-color: #f7f7f7;
+
+}
+.Thank-You{
+   font-size: 35px;
+   margin-left: 650px;
+   margin-top: 40px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+.navbar {
+   background-color:#121270;
+   height: 50px;
+   margin-top: 35px;
+   align-items: center;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top: 20px;
+   padding-bottom: 5px;
+   border-bottom: 1px solid salmon;
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: sticky;
+
+}
+
+.logo {
+   height: 60px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+
+}
+
+.home {
+   height: 30px;
+   text-decoration: none;
+   margin: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 40px;
+   font-size: 4px;
+   color: black;
+   
+}
+
+.profile {
+   height: 60px;
+   width: 60px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-right: 100%;
+}
+
+.sign-up {
+   height: auto;
+   text-decoration: none;
+   color: white;
+   text-decoration: none;
+   margin-top: 35px;
+   margin-bottom: 35px;
+
+}
+
+.sign-in {
+   height: auto;
+   text-decoration: none;
+   color: white;
+   margin-left: 90%;
+   margin-bottom: 35px;
+}
+
+.add-to-cart {
+   height: 40px;
+   width: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   margin-left: 80%;
+}
+
+.return-order {
+   height: auto;
+   text-decoration: none;
+   color:white;
+   margin-left: 90%;
+}
+.suit-1-buttom-add-to-card{
+   color:black;
+   padding-left: 2px;
+   padding-right: 2px;
+   width: 105px;
+   height:28px;
+   background-color:#f3f6f8;
+   margin-left: 10px;
+   margin-top: 11px;
+
+   margin-bottom:5px;
+   
+   cursor: pointer;
+   list-style-type: none;
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+.footer {
+      position: relative;
+      background-color: #040436;
+      height: 300px;
+      margin-top: 80px;
+    }
+
+    .about {
+      position: absolute;
+      top: 25px;
+      margin-left: 80px;
+      color: #e6e6ff;
+    }
+
+    .about-list {
+      position: absolute;
+      top: 80px;
+      margin-left: 76px;
+      color: #e6e6ff;
+      font-size: 20px;
+    }
+
+    .help {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 25px;
+    }
+
+    .help-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 500px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .policy {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 25px;
+    }
+
+    .policy-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 760px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .social {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 25px;
+    }
+
+    .social-list {
+      position: absolute;
+      color: #e6e6ff;
+      margin-left: 1000px;
+      top: 90px;
+      font-size: 20px;
+    }
+
+    .contact {
+      margin-left: 50px;
+    }
+
+    .call {
+      text-decoration: none !important;
+    }
+
+    .anc {
+      text-decoration: none !important;
+      color: white;
+    }
+    </style>
+
+</head>
+
+
+  <body class="body">
+   
+  
+    <div class="navbar">
+
+        <a href="./pages/user.html">
+            <img src="./images/user.png" class="profile" />
+        </a>
+
+        <a href="./../index.html">
+            <img src="./images/home.png" class="home" />
+        </a>
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search here ...." class="search-bar">
+            <button class="search-button">Search</button>
+        </form>
+
+        <a href="./pages/Notification.html">
+            <img src="./images/notification.png" class="home" />
+
+            <a href="/pages in navbar/sign-up.html" class="categories-1">
+                <h3 class="sign-up">&nbsp;&nbsp; Sign&nbsp;up&nbsp;&nbsp;</h3>
+            </a>
+
+            <a href="./pages in navbar/addtocart.html">
+                <img src="./images/add-to-cart.png" class="add-to-cart" /></a>
+
+            <a href="../pages in navbar/sign-in.html" class="categories-1">
+                <h3 class="sign-in">&nbsp;&nbsp; Sign&nbsp;in&nbsp;&nbsp;</h3>
+            </a>
+
+            <a href="./pages in navbar/return.html" class="categories-1">
+                <h3 class="return-order">Return Order</h3>
+            </a>
+    </div>
+
+  <!---------------------------------------------------------------------------------------------------------->
+       <div class="heading-name-suits"> ~...MEN - SUITS...~</div>
+       <div class="parent-div">
+
+        <div class=" suit-1">
+            <img src="./images/suit-1.webp" class="suit-1-img"/>
+            <div class="suit-1-name"><b class="a">PETEL ENGLAND :</b> &nbsp; &nbsp;<img src="./images/1-rating.png" width="65px"/></div>
+            <p class="suit-p"> <ul><li class="b">men uniform suit solid suit</li></ul></p>
+           <div class="suit-1-div2"> <del>₹8,199</del>  &nbsp;> &nbsp;  ₹7,143  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>15% off</b></span></div>
+           <div class="suit-1-delivery">Delivery Free..</div>
+          <a href="./back-end-buy.html">
+            <button class="suit-1-buttom">buy now</button></a>  
+            <button class="suit-1-buttom-add-to-card">Add to card</button>
+                  
+              
+        </div>
+
+        <div class=" suit-1">
+         <img src="./images/suit-2.webp" class="suit-1-img"/>
+            <div class="suit-1-name"><b class="a">RAYMOND :</b> &nbsp; &nbsp;<img src="./images/4-rating.png" width="65px"/></div>
+            <p class="suit-p"> <ul><li class="b"> double SLIM suit solid suit</li></ul></p>
+           <div class="suit-1-div2"> <del>₹5,999</del>  &nbsp;> &nbsp;  ₹2,299  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>57% off</b></span></div>
+           <div class="suit-1-delivery">Delivery charge ₹50..</div>
+           <a href="./back-end-buy.html">
+            <button class="suit-1-buttom">buy now</button></a>
+          
+          <button class="suit-1-buttom-add-to-card">Add to card</button>      
+              
+        </div>
+
+        <div class=" suit-1">
+         <img src="./images/suit-3.webp" class="suit-1-img"/>
+            <div class="suit-1-name"><b class="a">ATWOF :</b>&nbsp; &nbsp;<img src="./images/5-rating.png" width="65px"/></div>
+            <p class="suit-p"> <ul><li class="b">men single breasted-2 solid suit</li></ul></p>
+           <div class="suit-1-div2"> <del>₹6,999</del>  &nbsp;> &nbsp;  ₹3,499  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>43% off</b></span></div>
+           <div class="suit-1-delivery">Delivery Free..</div>
+           <a href="./back-end-buy.html">
+            <button class="suit-1-buttom">buy now</button></a>  
+          
+          <button class="suit-1-buttom-add-to-card">Add to card</button>      
+              
+        </div>
+        <div class=" suit-1">
+         <img src="./images/suit-4.webp" class="suit-1-img"/>
+            <div class="suit-1-name"><b class="a">RAYMOND :</b>&nbsp; &nbsp;<img src="./images/1-rating.png" width="65px"/></div>
+            <p class="suit-p"> <ul><li class="b">men SLIM FIT Solid Suit</li></ul></p>
+           <div class="suit-1-div2"> <del>₹7,399</del>  &nbsp;> &nbsp;  ₹3,209  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>61% off</b></span></div>
+           <div class="suit-1-delivery">Delivery Charge ₹50 ..</div>
+           <a href="./back-end-buy.html">
+            <button class="suit-1-buttom">buy now</button></a>
+           
+          <button class="suit-1-buttom-add-to-card">Add to card</button>       
+              
+        </div>
+        <div class=" suit-1">
+         <img src="./images/suit-5.webp" class="suit-1-img"/>
+            <div class="suit-1-name"><b class="a">BLACK-BERRYS :</b>&nbsp; &nbsp;<img src="./images/2-rating.png" width="65px"/></div>
+            <p class="suit-p"> <ul><li class="b">Body Tailored self design suit</li></ul></p>
+           <div class="suit-1-div2"> <del>₹9,999</del>  &nbsp;> &nbsp;  ₹7,143  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>21% off</b></span></div>
+           <div class="suit-1-delivery">Delivery Free..</div>
+           <a href="./back-end-buy.html">
+            <button class="suit-1-buttom">buy now</button></a>
+          
+          <button class="suit-1-buttom-add-to-card">Add to card</button>         
+              
+        </div>
+
+        </div>
+        <!--second row start s-6-->
+        <div class="parent-div-1">
+
+            <div class=" suit-1">
+                <img src="./images/suit-6.webp" class="suit-1-img"/>
+                <div class="suit-1-name"><b class="a">KEITH & PAUL :</b>&nbsp; &nbsp;<img src="./images/3-rating.png" width="65px"/></div>
+                <p class="suit-p"> <ul><li class="c">men 2 piece suit checkered</li></ul></p>
+               <div class="suit-1-div2"> <del>₹4,121</del>  &nbsp;> &nbsp;  ₹2,143  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>47% off</b></span></div>
+               <div class="suit-1-delivery">Delivery Free..</div>
+               <a href="./back-end-buy.html">
+                <button class="suit-1-buttom">buy now</button></a>
+               
+              <button class="suit-1-buttom-add-to-card">Add to card</button>       
+                  
+            </div>
+    
+            <div class=" suit-1">
+                <img src="./images/suit-7.webp" class="suit-1-img"/>
+                <div class="suit-1-name"><b class="a">RAYMOND :</b>&nbsp; &nbsp;<img src="./images/2-rating.png" width="65px"/></div>
+                <p class="suit-p"> <ul><li class="c">Men Formal Solid Suit</li></ul></p>
+               <div class="suit-1-div2"> <del>₹7,999</del>  &nbsp;> &nbsp;  ₹5,599  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>10% off</b></span></div>
+               <div class="suit-1-delivery">Delivery Charge ₹50..</div>
+               <a href="./back-end-buy.html">
+                <button class="suit-1-buttom">buy now</button></a>
+               
+              <button class="suit-1-buttom-add-to-card">Add to card</button>       
+                  
+            </div>
+    
+            <div class=" suit-1">
+                <img src="./images/suit-8.webp" class="suit-1-img"/>
+                <div class="suit-1-name"><b class="a">VAN HEUSEN :</b>&nbsp; &nbsp;<img src="./images/3-rating.png" width="65px"/></div>
+                <p class="suit-p"> <ul><li class="c">Men single breasted solid suit</li></ul></p>
+               <div class="suit-1-div2"> <del>₹7,143</del>  &nbsp;> &nbsp;  ₹3,143  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>50% off</b></span></div>
+               <div class="suit-1-delivery">Delivery Free..</div>
+               <a href="./back-end-buy.html">
+                <button class="suit-1-buttom">buy now</button></a>
+               
+              <button class="suit-1-buttom-add-to-card">Add to card</button>        
+                  
+            </div>
+            <div class=" suit-1">
+                <img src="./images/suit-9.webp" class="suit-1-img"/>
+                <div class="suit-1-name"><b class="a">RAYMOND :</b>&nbsp; &nbsp;<img src="./images/4-rating.png" width="65px"/></div>
+                <p class="suit-p"> <ul><li class="c">royal SIngle fancy men Suit</li></ul></p>
+               <div class="suit-1-div2"> <del>₹11,399</del>  &nbsp;> &nbsp;  ₹9,999  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>18% off</b></span></div>
+               <div class="suit-1-delivery">Delivery ₹99..</div>
+               <a href="./back-end-buy.html">
+                <button class="suit-1-buttom">buy now</button></a>
+               
+              <button class="suit-1-buttom-add-to-card">Add to card</button>        
+                  
+            </div>
+            <div class=" suit-1">
+                <img src="./images/suit-10.webp" class="suit-1-img"/>
+                <div class="suit-1-name"><b class="a">PETEL ENGLAND :</b>&nbsp; &nbsp;<img src="./images/5-rating.png" width="65px"/></div>
+                <p class="suit-p"> <ul><li class="c">TROUSER solid men suit</li></ul></p>
+               <div class="suit-1-div2"> <del>₹15,999</del>  &nbsp;> &nbsp;  ₹11,999  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>31% off</b></span></div>
+               <div class="suit-1-delivery">Delivery Charge ₹199..</div>
+               <a href="./back-end-buy.html">
+                <button class="suit-1-buttom">buy now</button></a>
+                
+              <button class="suit-1-buttom-add-to-card">Add to card</button>     
+                  
+            </div>
+    
+            </div>
+            <!--third row started here -11-->
+
+            <div class="parent-div">
+
+                <div class=" suit-1">
+                    <img src="./images/suit-11.webp" class="suit-1-img"/>
+                    <div class="suit-1-name"><b class="a">PETEL ENGLAND :</b> &nbsp; &nbsp;<img src="./images/3-rating.png" width="65px"/></div>
+                    <p class="suit-p"> <ul><li class="d">men uniform suit solid suit</li></ul></p>
+                   <div class="suit-1-div2"> <del>₹8,199</del>  &nbsp;> &nbsp;  ₹7,143  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>15% off</b></span></div>
+                   <div class="suit-1-delivery">Delivery Free..</div>
+                   <a href="./back-end-buy.html">
+                    <button class="suit-1-buttom">buy now</button></a>
+                   
+                  <button class="suit-1-buttom-add-to-card">Add to card</button>       
+                      
+                </div>
+        
+                <div class=" suit-1">
+                    <img src="./images/suit-12.webp" class="suit-1-img"/>
+                    <div class="suit-1-name"><b class="a">RAYMOND :</b> &nbsp; &nbsp;<img src="./images/4-rating.png" width="65px"/></div>
+                    <p class="suit-p"> <ul><li class="d"> double SLIM suit solid suit</li></ul></p>
+                   <div class="suit-1-div2"> <del>₹5,999</del>  &nbsp;> &nbsp;  ₹2,299  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>57% off</b></span></div>
+                   <div class="suit-1-delivery">Delivery charge ₹50..</div>
+                   <a href="./back-end-buy.html">
+                    <button class="suit-1-buttom">buy now</button></a> 
+                    
+                  <button class="suit-1-buttom-add-to-card">Add to card</button>     
+                      
+                </div>
+        
+                <div class=" suit-1">
+                    <img src="./images/suit-13.webp" class="suit-1-img"/>
+                    <div class="suit-1-name"><b class="a">ATWOF :</b>&nbsp; &nbsp;<img src="./images/5-rating.png" width="65px"/></div>
+                    <p class="suit-p"> <ul><li class="d">men single breasted-2 solid suit</li></ul></p>
+                   <div class="suit-1-div2"> <del>₹6,999</del>  &nbsp;> &nbsp;  ₹3,499  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>43% off</b></span></div>
+                   <div class="suit-1-delivery">Delivery Free..</div>
+                   <a href="./back-end-buy.html">
+                    <button class="suit-1-buttom">buy now</button></a>
+                  
+                  <button class="suit-1-buttom-add-to-card">Add to card</button>        
+                      
+                </div>
+                <div class=" suit-1">
+                    <img src="./images/suit-14.webp" class="suit-1-img"/>
+                    <div class="suit-1-name"><b class="a">RAYMOND :</b>&nbsp; &nbsp;<img src="./images/4-rating.png" width="65px"/></div>
+                    <p class="suit-p"> <ul><li class="d">men SLIM FIT Solid Suit</li></ul></p>
+                   <div class="suit-1-div2"> <del>₹7,399</del>  &nbsp;> &nbsp;  ₹3,209  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>61% off</b></span></div>
+                   <div class="suit-1-delivery">Delivery Charge ₹50 ..</div>
+                   <a href="./back-end-buy.html">
+                    <button class="suit-1-buttom">buy now</button></a>
+                   
+                  <button class="suit-1-buttom-add-to-card">Add to card</button>      
+                      
+                </div>
+                <div class=" suit-1">
+                    <img src="./images/suit-15.webp" class="suit-1-img"/>
+                    <div class="suit-1-name"><b class="a">BLACK-BERRYS :</b>&nbsp; &nbsp;<img src="./images/2-rating.png" width="65px"/></div>
+                    <p class="suit-p"> <ul><li class="d">Body Tailored self design suit</li></ul></p>
+                   <div class="suit-1-div2"> <del>₹9,999</del>  &nbsp;> &nbsp;  ₹7,143  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>21% off</b></span></div>
+                   <div class="suit-1-delivery">Delivery Free..</div>
+                   <a href="./back-end-buy.html">
+                    <button class="suit-1-buttom">buy now</button></a>
+                  
+                  <button class="suit-1-buttom-add-to-card">Add to card</button>
+                </div>
+        
+                </div>
+                <!--second row start s-6-->
+                <div class="parent-div-1">
+        
+                    <div class=" suit-1">
+                        <img src="./images/suit-16.webp" class="suit-1-img"/>
+                        <div class="suit-1-name"><b class="a">KEITH & PAUL :</b>&nbsp; &nbsp;<img src="./images/3-rating.png" width="65px"/></div>
+                        <p class="suit-p"> <ul><li class="e">men 2 piece suit checkered</li></ul></p>
+                       <div class="suit-1-div2"> <del>₹4,121</del>  &nbsp;> &nbsp;  ₹2,199  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>47% off</b></span></div>
+                       <div class="suit-1-delivery">Delivery Free..</div>
+                       <a href="./back-end-buy.html">
+                        <button class="suit-1-buttom">buy now</button></a>
+                      
+                      <button class="suit-1-buttom-add-to-card">Add to card</button>        
+                          
+                    </div>
+            
+                    <div class=" suit-1">
+                        <img src="./images/suit-17.webp" class="suit-1-img"/>
+                        <div class="suit-1-name"><b class="a">RAYMOND :</b>&nbsp; &nbsp;<img src="./images/2-rating.png" width="65px"/></div>
+                        <p class="suit-p"> <ul><li class="e">Men Formal Solid Suit</li></ul></p>
+                       <div class="suit-1-div2"> <del>₹8,999</del>  &nbsp;> &nbsp;  ₹5,399  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>10% off</b></span></div>
+                       <div class="suit-1-delivery">Delivery Charge ₹99..</div>
+                       <a href="./back-end-buy.html">
+                        <button class="suit-1-buttom">buy now</button></a>
+                       
+                      <button class="suit-1-buttom-add-to-card">Add to card</button>       
+                          
+                    </div>
+            
+                    <div class=" suit-1">
+                        <img src="./images/suit-18.webp" class="suit-1-img"/>
+                        <div class="suit-1-name"><b class="a">VAN HEUSEN :</b>&nbsp; &nbsp;<img src="./images/3-rating.png" width="65px"/></div>
+                        <p class="suit-p"> <ul><li class="e">Men single breasted solid suit</li></ul></p>
+                       <div class="suit-1-div2"> <del>₹7,143</del>  &nbsp;> &nbsp;  ₹3,143  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>50% off</b></span></div>
+                       <div class="suit-1-delivery">Delivery Free..</div>
+                       <a href="./back-end-buy.html">
+                        <button class="suit-1-buttom">buy now</button></a>
+                      
+                      <button class="suit-1-buttom-add-to-card">Add to card</button>
+                    </div>
+                    <div class=" suit-1">
+                        <img src="./images/suit-19.webp" class="suit-1-img"/>
+                        <div class="suit-1-name"><b class="a"> ROYAL MEN :</b>&nbsp; &nbsp;<img src="./images/4-rating.png" width="65px"/></div>
+                        <p class="suit-p"> <ul><li class="e">Premium royal men solid suit</li></ul></p>
+                       <div class="suit-1-div2"> <del>₹21,399</del>  &nbsp;> &nbsp;  ₹16,999  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>37% off</b></span></div>
+                       <div class="suit-1-delivery">Delivery ₹299..</div>
+                       <a href="./back-end-buy.html">
+                        <button class="suit-1-buttom">buy now</button></a>
+                       
+                      <button class="suit-1-buttom-add-to-card">Add to card</button>        
+                          
+                    </div>
+                    <div class=" suit-1">
+                        <img src="./images/suit-20.webp" class="suit-1-img"/>
+                        <div class="suit-1-name"><b class="a">PETEL ENGLAND :</b>&nbsp; &nbsp;<img src="./images/2-rating.png" width="65px"/></div>
+                        <p class="suit-p"> <ul><li class="e">TROUSER solid men suit</li></ul></p>
+                       <div class="suit-1-div2"> <del>₹15,999</del>  &nbsp;> &nbsp;  ₹11,999  <span class="suit-1-off"> &nbsp; &nbsp;  &nbsp; &nbsp;<b>31% off</b></span></div>
+                       <div class="suit-1-delivery">Delivery Charge ₹201..</div>
+                       <a href="./back-end-buy.html">
+                        <button class="suit-1-buttom">buy now</button></a> 
+                      <button class="suit-1-buttom-add-to-card">Add to card</button>       
+                          
+                    </div>
+            
+                    </div>
+                    <!---------------------------------------------------------------------------------------------------------->
+
+                     <button class="footer-button">View More ◑></button>
+                     
+                     <div class="footer">
+                        <h2 class="about">CONTACT</h2><br>
+                        <p class="about-list">
+                          <a href="mailto:tinukohare@gmail.com" class="anc">
+                            <img src="./images/email.png" height="30px" alt="E-mail" /> E-mail: rtcfashionclub@gmail.com
+                          </a><br>
+                          <a href="tel:+91-8459562384" class="anc">
+                            <img src="./images/call.png" height="30px" alt="Call" />
+                            <h class="call">Call: +91 8459562384<br>
+                          </a>
+                    
+                          <a href="https://goo.gl/maps/XYayxp7jYfVYHPRCA" class="anc">
+                            <img src="./images/location.png" height="30px" /> Address: Nagpur
+                          </a><br>
+                        </p>
+                    
+                    
+                        <h2 class="help"> HELP</h2>
+                        <p class="help-list">Payments<br> Shiping <br>Customer Service <br> FAQ</p>
+                    
+                        <h2 class="policy"> POLICY</h2>
+                        <p class="policy-list">Return Policy<br>Terms Of Use <br> Security <br> Privacy</p>
+                    
+                    
+                        <h2 class="social"> SOCIAL</h2>
+                        <p class="social-list">Facebook<br>Twitter <br>You Tube</p>
+                      </div>
+
+
+       
+       
+       
+    
+
+
+
+</body>
+</html>
