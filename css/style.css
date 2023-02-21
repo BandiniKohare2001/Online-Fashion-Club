@@ -18,7 +18,7 @@
     text-decoration: none;
     color: white;
     margin-top: 15px;
-    background-color: rgb(38, 38, 117);
+    background-color: rgb(16, 16, 97);
     border-radius: 10px;
     margin-left: 40px;
     border-color: #353573;
@@ -37,7 +37,7 @@
     font-size: 17px;
     margin-left: 30px;
     border-radius: 10px;
-    background-color: rgb(38, 38, 117);
+    background-color: rgb(16, 16, 97);
     margin-top: 15px;
     margin-right: 50px;
     border-color: #353573;
@@ -45,7 +45,7 @@
 }
 
 .navbar {
-    background-color:  rgb(8, 8, 104);
+    background-color: rgb(16, 16, 97);
     height: 78px;
     align-items: center; 
     padding-right: 100px;
