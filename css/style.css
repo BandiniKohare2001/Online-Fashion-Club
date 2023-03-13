@@ -298,6 +298,7 @@ height: 110px;
     margin-top: 20px;
     margin-left: 180px;
     margin-right: 180px;
+    filter: drop-shadow(0 0 .45rem rgb(71, 70, 70));
 }
 
 .offer-img {
