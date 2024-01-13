@@ -298,7 +298,7 @@ height: 110px;
     margin-top: 20px;
     margin-left: 180px;
     margin-right: 180px;
-    filter: drop-shadow(0 0 .45rem rgb(71, 70, 70));
+    filter: drop-shadow(0 0 .45rem rgb(181, 77, 77));
 }
 
 .offer-img {
@@ -386,11 +386,7 @@ height: 110px;
     text-decoration: none !important;
 }
 
-.anc {
-    text-decoration: none !important;
-    color: white;
 
-}
 .about-2 {
     position: absolute;
     top: 25px;
