@@ -271,7 +271,12 @@ height: 110px;
     margin-bottom: 40px;
 }
 
-
+.add-img {
+    margin-top: 20px;
+    height: 350px;
+    width: 430px;
+    filter: drop-shadow(0 0 .45rem rgb(50, 49, 49));
+}
 
 .add-img2 {
     height: 300px;
